@@ -1,21 +1,22 @@
 body{
     margin: 0;
    
-      
    }
    nav{
    
        background-color: #0e3b43;;
        height: 115px;
+       width: 100%;
        display: flex;
    }
    
    .Logo_Spec{
    
-       height: 80px;
-       width: 75%;
+       height: 60px;
+       width: 70%;
        padding: 12px;
        margin-left: 5px;
+
    }
    
    .logo_div{
@@ -27,6 +28,7 @@ body{
        width: 100%;
        display: flex;
        padding-top: 2%;
+       border: 5px solid rgb(98, 164, 23);
       
    }
    
@@ -47,6 +49,7 @@ body{
        width: 30px;
        height: 30px;
        margin: 0;
+       background-color: black;
    } 
 
    .X{

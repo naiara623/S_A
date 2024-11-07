@@ -1,11 +1,17 @@
-import React from 'react'
+import React from "react";
+import Navbar from '../components/Navbar';
+import './Tela_Principal.css'
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css"; 
 
 function Tela_Principal() {
 
   const images = [
     
-    "./img/frase_carrocel2.jfif",
-    "./img/Frase_carrosel4.jfif",
+    "./img/FRASE.png",
+    "./img/frase2.png",
+    "./img/frase3.png",
  
    ]
  
@@ -17,22 +23,27 @@ function Tela_Principal() {
     slidesToScroll: 1,
   };
   return (
-    <div>
-       <NavBar_Principal />
+    <div className='Bore'>
+        <Navbar/>
 
-<div className='carrocel'>
-  
-<div>
-    <h2>Carrossel de Imagens</h2>
+        <div className='carrocel'>
+                <div className="test">
+                    <Slider {...settings}>
+                                {images.map((image, index) => (
+                                  <div key={index}>
+                                    <img src={image} alt={`Slide ${index + 1}`} />
+                                  </div>
+                                ))}
+                              </Slider>
+                </div>
+        </div>
 
-</div>
-
-</div>
-
-<div className='profissionais'> 
-<p>PROFISSIONAIS</p>
-</div>
-    </div>
+              <div className='profissionais'>
+                 <div className="containe_profissional1"></div>
+                 <div className="containe_profissional2"></div>
+                 <div className="containe_profissional3"></div>
+              </div>
+     </div>
   )
 }
 

@@ -1,0 +1,76 @@
+.Bore{
+
+    border: 5px solid rgb(10, 68, 162);
+    width: 99.5%;
+    height: 100%;
+
+}
+
+
+.carrocel{
+    border: 5px solid red;
+    height: 260px;
+    width: 99.5%;
+}
+
+.test{
+  border: 6px solid salmon;
+  width: 90%;
+  height: 185px; margin-left: 95px;
+  margin-top: 31px;
+  border-radius: 15px;
+
+}
+
+.profissionais{
+
+border: 5px solid rgb(193, 234, 10);
+height: 548px;
+width: 99.5%;
+}
+
+.IMGS{
+    width: 90%;
+    height: 185px;
+    border: 2px solid black ;
+    margin-left: 95px;
+    margin-top: 31px;
+    border-radius: 15px;
+}
+
+P{
+    font-family: "josefin Sans", sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+
+.profissionais{
+display: flex;
+justify-content: center;
+
+}
+
+
+
+.containe_profissional1{
+
+    border: 5px solid chocolate;
+    width: 20%;
+    height: 60%;
+}
+
+.containe_profissional2{
+    border: 5px solid chocolate;
+    width: 20%;
+    height: 60%;
+
+}
+
+.containe_profissional3{
+    border: 5px solid chocolate;
+    width: 20%;
+    height: 60%;
+
+}
