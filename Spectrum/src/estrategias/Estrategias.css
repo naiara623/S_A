@@ -1,0 +1,267 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #214B51;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #214B51;
+    color: #EAF4F4;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header nav a {
+    color: #EAF4F4;
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.header nav a:hover {
+    text-decoration: underline;
+    font-family: "Roboto", sans-serif;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.main-content {
+    flex: 3;
+    background-color: #214B51;
+    color: #EAF4F4;
+    padding: 20px;
+}
+
+.main-content h2 {
+    margin-top: 0;
+}
+
+.main-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.main-content ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #597B78;
+    padding: 20px;
+    color: #EAF4F4;
+    border-radius: 19px;
+    border-color: #214B51;
+}
+
+.sidebar input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.sidebar h3 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+    background-color: #214B51;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #214B51;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #EAF4F4;
+
+}
+
+.sidebar ul li:hover {
+    background-color: #a0a0a0;
+    cursor: pointer;
+}
+
+.Navbar-Container{
+    height: 145px;
+    background-color: #0E3B43;
+    display: block;
+}
+
+.navbar-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.navbar-2{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.menu-usuario{
+    background-color: transparent;
+    height: fit-content;
+    border: none;
+    width: auto;
+    height: 50px;
+}
+
+.menu-janela{
+    background-color: transparent;
+    height: fit-content;
+    border: none;
+    width: auto;
+    height: 50px;
+}
+
+.menu-usuario img{
+    width: auto;
+    height: 50px;
+}
+
+.menu-janela img{
+    margin-top: 25px;
+    width: auto;
+    height: 50px;
+}
+
+.navbar-menu{
+    height: fit-content;
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-pesquisa{
+    display: flex;
+    align-items: center;
+}
+
+.lupa-pesquisa{
+    width: 30px;
+    
+}
+
+.navbar-pesquisa input{
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: #214B51;
+    outline: 0;
+}
+
+.navbar-pesquisa input::placeholder{
+    color: #eaf4f4c5;
+}
+
+.logo{
+    width: auto;
+    height: 70px;
+    margin-top: 16px;
+    margin-left: 30px;
+}
+
+
+.button-inicio{
+    background-color: transparent;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #EAF4F4;
+    border: 0px;
+}
+
+a{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #EAF4F4;
+    border: 0px;
+    text-decoration: none;
+}
+
+.navbar-2 a{
+    margin-left: 30px;
+}
+
+.estrategias {
+    flex: 1;
+    background-color:#214B51;
+    padding: 20px;
+    color: #EAF4F4;
+    border-radius: 19px;
+    border-color: #597B78;
+}
+
+.estrategias input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.estrategias h3 {
+    margin-top: 0;
+}
+
+.estrategias ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.estrategias ul li {
+    margin-bottom: 10px;
+    background-color: #597B78;
+    padding: 25px;
+    border-radius: 10px;
+    border-color: #597B78;
+    
+}
+
+p{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #EAF4F4;
+
+}
+
+.estrategias ul li:hover {
+    background-color: #a1afa6;
+    cursor: pointer;
+}
+
+.titulo h2 {
+    margin-top: 50px;
+}
