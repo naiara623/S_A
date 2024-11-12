@@ -10,37 +10,34 @@
 
 
 .carrocel{
-    border: 5px solid red;
+    /* border: 5px solid red; */
     height: 260px;
     width: 99.5%;
 }
 
-.test{
-  border: 5px solid salmon;
+.div-carrocel{
+  /* border: 5px solid salmon; */
   width: 90%;
-  height: 185px; margin-left: 95px;
-  margin-top: 31px;
+  height: 180px; 
+  margin-left: 124px;
+  margin-top: 2%;
   border-radius: 5px;
 }
 
 .carrocel_img{
-width: 100%;
+width: 97%;
 height: 100%;
 border-radius: 1%;
-}
-.profissionais{
-
-border: 5px solid rgb(193, 234, 10);
-height: 548px;
-width: 99.5%;
 }
 
 .TEXTOP{
     width: 9%;
     height: 3.7%;
-    font-size: 150%;
-    margin-left: -0.1%;
+    font-size: 160%;
+    margin-left: 5%;
     inline-size: 10%;
+    margin-top: -1%;
+
     
 }
 
@@ -59,8 +56,8 @@ width: 99.5%;
 }
 .IMGS{
     width: 90%;
-    height: 185px;
-    border: 2px solid black ;
+    height: 165px;
+    border: 5px solid black ;
     margin-left: 95px;
     margin-top: 31px;
     border-radius: 15px;
@@ -77,6 +74,12 @@ P{
 .profissionais{
 display: flex;
 justify-content: space-around;
+margin-top: -4%;
+margin-left: 0%;
+flex-wrap: wrap;
+height: 538px;
+width: 99.5%;
+
 
 }
 
@@ -84,31 +87,89 @@ justify-content: space-around;
 
 .containe_profissional1{
 
-    border: 5px solid chocolate;
-    width: 23%;
-    height: 70%;
+    /* border: 5px solid chocolate; */
+    width: 20%;
+    height: 33%;
     margin-top: 4%;
     border-radius: 5%;
     background-color: #597b78b6;
-    margin-left: -20.5% ;
+    margin-left: 20px ;
+   
+}
+
+.Div{
+    width: 100%;
 }
 
 .containe_profissional2{
-    border: 5px solid chocolate;
-    width: 23%;
-    height: 70%;
+    /* border: 5px solid chocolate; */
+    width: 20%;
+    height: 33%;
     margin-top: 4%;
     border-radius: 5%;
     background-color: #597b78b6;
-    margin-left: -0.2%;
+   margin-left: 5px;
+
     
 }
 
 .containe_profissional3{
-    border: 5px solid chocolate;
-    width: 23%;
-    height: 70%;
+    /* border: 5px solid chocolate; */
+    width: 20%;
+    height: 33%;
     margin-top: 4%;
     border-radius: 5%;
     background-color: #597b78b6;
+    margin-left: 5px;
+}
+
+.containe_profissional4{
+    /* border: 5px solid chocolate; */
+    width: 20%;
+    height: 33%;
+    margin-top: 4%;
+    border-radius: 5%;
+    background-color: #597b78b6;
+    margin-left: 5px;
+}
+
+.containe_profissional5{
+    /* border: 5px solid chocolate; */
+    width: 20%;
+    height: 33%;
+    margin-top: 4%;
+    border-radius: 5%;
+    background-color: #597b78b6;
+    margin-left: 5px;
+                                                                                                                         
+}
+
+.containe_profissional6{
+    /* border: 5px solid chocolate; */
+    width: 20%;
+    height: 33%;
+    margin-top: 4%;
+    border-radius: 5%;
+    background-color: #597b78b6;
+    margin-left: 5px;
+}
+
+.containe_profissional7{
+    /* border: 5px solid chocolate; */
+    width: 20%;
+    height: 33%;
+    margin-top: 4%;
+    border-radius: 5%;
+    background-color: #597b78b6;
+    margin-left: 5px;
+}
+
+.containe_profissional8{
+    /* border: 5px solid chocolate; */
+    width: 20%;
+    height: 33%;
+    margin-top: 4%;
+    border-radius: 5%;
+    background-color: #597b78b6;
+    margin-left: 5px;
 }
