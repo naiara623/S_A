@@ -23,72 +23,76 @@ function Tela_Principal() {
   //   slidesToScroll: 1,
   // };
   return (
-    <div className='Bore'>
+  <div className='Bore'>
         <Navbar/>
 
-        <div className='carrocel'>
-
-                <div className="div-carrocel">
-
-
-                   <img className="carrocel_img" src="frase3.png" alt="" />
-                    {/* <Slider {...settings}>
-                                {images.map((image, index) => (
-                                  <div key={index}>
-                                    <img src={image} alt={`Slide ${index + 1}`} />
-                                  </div>
+         <div className='carrocel'>
+              <div className="div-carrocel">
+                 <img className="carrocel_img" src="frase3.png" alt="" />
+                  {/* <Slider {...settings}>
+                            {images.map((image, index) => (
+                             <div key={index}>
+                              <img src={image} alt={`Slide ${index + 1}`} />
+                              </div>
                                 ))}
-                              </Slider> */}
+                            </Slider> */}
                 </div>
-        </div>
+         </div>
 
              <p className="TEXTOP">PROFISSIONAL</p>
-             <div className="Div"> 
+
+          
               <div className='profissionais'>  
-                      <div className="containe_profissional1">
-                        <img className="img-profissional" src="Milena Bairro.jpg" alt="" />
-                        <p className="nomes">Milena Bairro</p>
-                      </div>
 
-                    <div className="containe_profissional2">
-                        <img className="img-profissional" src="Gustavo Souza.jpg" alt="" />
-                        <p className="nomes">Gustavo Souza</p>
-                    </div>
+              
+              
+                      <div className="containe_profissional">
+                           <img className="img-profissional" src="Milena Bairro.jpg" alt="" />
+                              <p className="nomes">Milena Bairro</p>
+                        </div>
 
-                    <div className="containe_profissional3">
-                        <img className="img-profissional" src="Luciana Bittencourt.jpg" alt="" />
-                        <p className="nomes">Luciana Bittencourt</p>
-                    </div>
+                        <div className="containe_profissional">
+                            <img className="img-profissional" src="Gustavo Souza.jpg" alt="" />
+                            <p className="nomes">Gustavo Souza</p>
+                        </div>
 
-                    <div className="containe_profissional4">
-                        <img className="img-profissional" src="Luciana Bittencourt.jpg" alt="" />
-                        <p className="nomes">Lilia Bittencourt</p>
-                    </div>
-                    
-                    <div className="containe_profissional5">
-                        <img className="img-profissional" src="Milena Bairro.jpg" alt="" />
-                        <p className="nomes">Wanda Bairro</p>
-                      </div>
+                        <div className="containe_profissional">
+                            <img className="img-profissional" src="Luciana Bittencourt.jpg" alt="" />
+                            <p className="nomes">Luciana Bittencourt</p>
+                        </div>
 
-                    <div className="containe_profissional6">
-                        <img className="img-profissional" src="Gustavo Souza.jpg" alt="" />
-                        <p className="nomes">Aghata Souza</p>
-                    </div>
+                          <div className="containe_profissional">
+                              <img className="img-profissional" src="Luciana Bittencourt.jpg" alt="" />
+                              <p className="nomes">Lilia Bittencourt</p>
+                          </div>
+                 
 
-                    <div className="containe_profissional7">
-                        <img className="img-profissional" src="Gustavo Souza.jpg" alt="" />
-                        <p className="nomes">James Souza</p>
-                    </div>
+                      
+                              <div className="containe_profissional">
+                                  <img className="img-profissional" src="Milena Bairro.jpg" alt="" />
+                                  <p className="nomes">Wanda Bairro</p>
+                                </div>
 
-                    <div className="containe_profissional8">
-                        <img className="img-profissional" src="Gustavo Souza.jpg" alt="" />
-                        <p className="nomes">Gustavo Souza</p>
-                    </div>
+                              <div className="containe_profissional">
+                                  <img className="img-profissional" src="Gustavo Souza.jpg" alt="" />
+                                  <p className="nomes">Aghata Souza</p>
+                              </div>
 
-                    </div>
-             </div>
+                              <div className="containe_profissional">
+                                  <img className="img-profissional" src="Gustavo Souza.jpg" alt="" />
+                                  <p className="nomes">James Souza</p>
+                              </div>
+
+                              <div className="containe_profissional">
+                                  <img className="img-profissional" src="Gustavo Souza.jpg" alt="" />
+                                  <p className="nomes">Gustavo Souza</p>
+                              </div>
+                        
+
+          </div>
+  </div>
                 
-                 </div>
+                
   )
 }
 
