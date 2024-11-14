@@ -1,24 +1,23 @@
 import './Login.css'
 import { Link } from 'react-router-dom'
+import '../index.css'
 function Login() {
   return (
-    <div>
+    <div className='body-login'>
        <div className='container-1'>
 
 <div className='container'>
 <h2 className='kk'>Login</h2>
 
-  <div className="inputs">
-  <div className="inputBox">
-        <input placeholder="seu.email@gmail.com" type="e-mail" required />
-        <span>Nome de Usuário ou Email</span>
-      </div>
-      <br /><br />
-      <div className="inputBox">
-        <input placeholder="Minimo 5 Caracteres" type="passaword" required />
-        <span>Senha</span>
-      </div>
-  </div>
+<div className="input-group">
+        <label className="label">Nome de usuário ou Email</label>
+        <input autoComplete="off" name="text" id="text" className="input" type="e-mail" placeholder='se.email@gmail.com ou Nome Completo'/>
+        <div /></div>  
+        <br /><br /><br />
+        <div className="input-group">
+        <label className="label">Senha</label>
+        <input autoComplete="off" name="Email" id="password" className="input" type="password" placeholder='Minimo 5 Caracteres'/>
+        <div /></div>
 
 
 <br /><br />
@@ -28,8 +27,7 @@ function Login() {
 <div className="entrar">
   <h4 className='tim'>não tem conta? <Link to={"/cadastro"}>Cadastrar</Link></h4> 
 
-
-<h4 className='tim1'>Esqueceu a senha? Modificar</h4>
+<h4 className='tim1'>Esqueceu a senha? </h4>
 </div>
 
 </div>

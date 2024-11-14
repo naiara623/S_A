@@ -10,26 +10,19 @@ function Cadastro() {
            
            <br /><br />
 
-           <div className="inputs">
-            <div className="input-group">
-        <label className="label">Nome de Usuário</label>
-        <input autoComplete="off" name="text" id="text" className="input" type="text" placeholder='Nome Completo'/>
-        <div />
-        <br />
-           </div>
            <div className="input-group">
-        <label className="label1">E-mail</label>
-        <input autoComplete="off" name="Email" id="Email" className="input" type="email" placeholder='seu.Email@gmail.com'/>
-        <div />
-           </div>
-           <br />
-           <div className="input-group">
+        <label className="l11">Nome de usuário</label>
+        <input autoComplete="off" name="text" id="text" className="a" type="text" placeholder='Nome Completo' />
+        <div /></div>  
+        <br /><br />
+        <div className="input-group">
+        <label className="label1">Email</label>
+        <input autoComplete="off" name="Email" id="Email" className="a" type="Email" placeholder='seu.email@gmail.com'/>
+        <div /></div><br /><br />
+        <div className="input-group">
         <label className="label1">Senha</label>
-        <input autoComplete="off" name="Email" id="Email" className="input" type="password" placeholder='Minimo: 5 Caracteres'/>
-        <div />
-           </div>
-           
-           </div>
+        <input autoComplete="off" name="Email" id="password" className="a" type="password" placeholder='Minimo 5 Caracteres'/>
+        <div /></div>
       <br />
 
       &nbsp;&nbsp;&nbsp;
@@ -80,7 +73,7 @@ function Cadastro() {
           <svg width="18px" height="18px" viewBox="0 0 18 18">
             <path d="M 1 9 L 1 9 c 0 -5 3 -8 8 -8 L 9 1 C 14 1 17 5 17 9 L 17 9 c 0 4 -4 8 -8 8 L 9 17 C 5 17 1 14 1 9 L 1 9 Z" />
             <polyline points="1 9 7 14 15 4" />
-          </svg> &nbsp; li e aceito os Termos de uso
+          </svg> &nbsp; Li e aceito os Termos de uso
         </label>
           </div>
         <h4>Já tem conta? Entrar</h4> 

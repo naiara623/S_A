@@ -7,6 +7,7 @@ import Tela_Perfil from "../pages/Tela_Perfil";
 import Tela_Informacoes from "../pages/Tela_Informacoes";
 import Tela_Principal from "../pages/Tela_Principal";
 
+
 import Estrategia1 from "../estrategias/Estrategia1";
 import Estrategia2 from "../estrategias/Estrategia2";
 import Estrategia3 from "../estrategias/Estrategia3";
@@ -27,6 +28,8 @@ const router = createBrowserRouter([
     {path: "/perfildeusuario", element: <Tela_Perfil />},
     {path: "/perfildeprofissional", element: <Tela_Profissional />},
     {path: "/teladeinformacoes", element: <Tela_Informacoes />},
+
+    {path: "/telaprincipal", element: <Tela_Informacoes />},
     {path: "/telaprincipal", element: <Tela_Principal />},
 
     {path: "/estrategia1", element: <Estrategia1/>},
