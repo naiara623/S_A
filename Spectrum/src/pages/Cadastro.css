@@ -394,3 +394,49 @@ h4{
         .oi:active {
          filter: brightness(.8);
         }
+
+        .a {
+          margin-left: 5%;
+          height: 44px;
+          width: 83%;
+          background-color: #EAF4F4;
+          border-radius: .5rem;
+          padding: 0 1rem;
+          border: 2px solid transparent;
+          font-size: 1rem;
+          transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+        }
+        
+        .l11{
+          margin-left: -63%;
+          display: block;
+          margin-bottom: .3rem;
+          font-size: .9rem;
+          font-weight: bold;
+          color: #EAF4F4;
+          transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+        }
+
+        .input-group{
+          margin-top: -5%;
+          margin-left: -5%;
+        }
+
+        .label1 {
+          padding-left: 5%;
+          display: block;
+          margin-bottom: .3rem;
+          font-size: .9rem;
+          font-weight: bold;
+          color: #EAF4F4;
+          transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+        }
+        
+        .a:hover, .a:focus, .input-group:hover .a {
+          outline: none;
+          border-color: #a3bbad;
+        }
+        
+        .input-group:hover .label, .a:focus {
+          color: #7a9183;
+        }
