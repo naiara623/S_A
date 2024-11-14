@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Boas_Vindas.css'
 function Boas_Vindas() {
   
@@ -7,8 +8,8 @@ function Boas_Vindas() {
 
         <img src="logo spectrum.png" alt="Logo do site" />
 
-            <button className='Button'>Entrar</button>
-            <button className='Button'>Cadastrar-se</button>
+            <Link to={"/login"} className='Button'>Entrar</Link>
+            <Link to={"/cadastro"} className='Button'>Cadastrar-se</Link>
 
       </nav>
      

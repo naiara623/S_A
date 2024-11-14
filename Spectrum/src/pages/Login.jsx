@@ -1,5 +1,5 @@
 import './Login.css'
-
+import { Link } from 'react-router-dom'
 function Login() {
   return (
     <div>
@@ -10,7 +10,7 @@ function Login() {
 
   <div className="inputs">
   <div className="inputBox">
-        <input placeholder="seu.email@gmail.com" type="text" required />
+        <input placeholder="seu.email@gmail.com" type="e-mail" required />
         <span>Nome de Usuário ou Email</span>
       </div>
       <br /><br />
@@ -26,7 +26,8 @@ function Login() {
 <br /><br />
 
 <div className="entrar">
-  <h4 className='tim'>não tem conta? Cadastrar</h4> 
+  <h4 className='tim'>não tem conta? <Link to={"/cadastro"}>Cadastrar</Link></h4> 
+
 
 <h4 className='tim1'>Esqueceu a senha? Modificar</h4>
 </div>
