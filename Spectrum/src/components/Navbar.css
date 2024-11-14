@@ -1,21 +1,19 @@
-body{
-    margin: 0;
-   
-      
-   }
    nav{
    
        background-color: #0e3b43;;
        height: 115px;
+       width: 100.5%;
        display: flex;
+       
    }
    
    .Logo_Spec{
    
-       height: 80px;
-       width: 75%;
+       height: 60px;
+       width: 70%;
        padding: 12px;
        margin-left: 5px;
+
    }
    
    .logo_div{
@@ -27,11 +25,13 @@ body{
        width: 100%;
        display: flex;
        padding-top: 2%;
+       /* border: 5px solid rgb(98, 164, 23); */
       
    }
    
-   .buscar{
-       margin: auto;
+   /* .buscar{
+    
+   margin: auto;
        margin-top: 0%;
        display: flex;
        align-items: center;
@@ -39,14 +39,14 @@ body{
        padding: 3px;
        width: fit-content;
        background-color: rgb(255, 255, 255);
-       border-radius: 11px;
-       
-    }
+       border-radius: 11px; 
+    } */
     
     .lupa{
        width: 30px;
        height: 30px;
        margin: 0;
+       background-color: black;
    } 
 
    .X{
@@ -67,7 +67,7 @@ body{
    .menu{
        width: 55px;
        height: 55px;
-       margin-left: 49%;
+       margin-left: 20%;
    }
 
      .div-menu{
@@ -82,6 +82,7 @@ body{
        width: 20%;
        display: flex;
        justify-content: space-evenly;
+       margin-top: 0.5%;
        
    }
     .inicio{
