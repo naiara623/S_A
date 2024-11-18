@@ -14,7 +14,7 @@
   
   /* Estilos do conteúdo do modal */
   .modal-content {
-    background-color: white;
+    background-color: #789383;
     padding: 20px;
     border-radius: 8px;
     width: 300px;
@@ -31,4 +31,8 @@
     border: none;
     font-size: 20px;
     cursor: pointer;
+  }
+
+  p{
+    color: #eaf4f4;
   }

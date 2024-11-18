@@ -7,8 +7,9 @@ function Modal({ isOpen, onClose }) {
     <div className="modal-overlay" onClick={onClose}>
     <div className="modal-content" onClick={(e) => e.stopPropagation()}>
       <button className="close-btn" onClick={onClose}>X</button>
-      <h2>Este é o Modal!</h2>
-      <p>Você pode colocar qualquer conteúdo aqui.</p>
+      <p>Perfil</p>
+      <p>Estrategias</p>
+      <p>Informações</p>
     </div>
   </div>
   )
