@@ -1,12 +1,21 @@
 
 import './Navbar.css'
 import { Link } from 'react-router-dom'
-import React from 'react';
+import { useState } from 'react';
+import Modal from './Modal';
 // import styled from 'styled-components';
 
 
 function Navbar() {
-  
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
   
   return (
     <nav>
@@ -17,8 +26,8 @@ function Navbar() {
           </div>
 
           <div className='inic-espec'>
-            <Link className='inicio'>INICIO</Link>      
-            <Link className='especialistas'>ESPECIALISTAS</Link>
+            <Link to={"/telaprincipal"} className='inicio'>INICIO</Link>      
+            <Link to={"/perfildeprofissional"} className='especialistas'>ESPECIALISTAS</Link>
           </div>
 
           <div className='buscar'>
@@ -39,8 +48,12 @@ function Navbar() {
           </div>
 
           <div className='div-menu'>
-            <img src="menu-.png" alt="" className='menu' />
-          </div>
+
+          <button onClick={openModal}><img src="menu-.png" alt="" className='menu' /></button>
+<Modal isOpen={isModalOpen} onClose={closeModal} />
+    </div>
+            
+          
 
         </div>
    </nav>

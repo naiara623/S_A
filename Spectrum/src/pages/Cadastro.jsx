@@ -1,5 +1,6 @@
 import './Cadastro.css'
-
+import { Link } from 'react-router-dom'
+import React from 'react'
 function Cadastro() {
   return (
     <div className='body'>
@@ -76,7 +77,7 @@ function Cadastro() {
           </svg> &nbsp; Li e aceito os Termos de uso
         </label>
           </div>
-        <h4>Já tem conta? Entrar</h4> 
+        <h4>Já tem conta? <Link to={"/login"}>Entrar</Link> </h4> 
 
          </div>
         </center> 

@@ -28,8 +28,6 @@ const router = createBrowserRouter([
     {path: "/perfildeusuario", element: <Tela_Perfil />},
     {path: "/perfildeprofissional", element: <Tela_Profissional />},
     {path: "/teladeinformacoes", element: <Tela_Informacoes />},
-
-    {path: "/telaprincipal", element: <Tela_Informacoes />},
     {path: "/telaprincipal", element: <Tela_Principal />},
 
     {path: "/estrategia1", element: <Estrategia1/>},
