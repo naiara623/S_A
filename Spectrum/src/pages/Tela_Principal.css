@@ -34,7 +34,7 @@ border-radius: 19px;
     width: 9%;
     height: 3.7%;
     font-size: 160%;
-    margin-left: 5%;
+    margin-left: 3%;
     inline-size: 10%;
     margin-top: -1%;
 
@@ -157,14 +157,23 @@ width: 99.5%;
 
 
 
-.containe_profissional{
+.containe_profissional1{
     /* border: 5px solid chocolate; */
     width: 20%;
     height: 33%;
-    margin-top: 4%;
+    margin-top: 3%;
     border-radius: 5%;
     background-color: #165c68dc;
-    margin-left: 20px ;
+    margin-left: 1%;
+}
+.containe_profissional2{
+    /* border: 5px solid chocolate; */
+    width: 20%;
+    height: 33%;
+    margin-top: -0.5%;
+    border-radius: 5%;
+    background-color: #165c68dc;
+    margin-left: 1% ;
 }
 
 
