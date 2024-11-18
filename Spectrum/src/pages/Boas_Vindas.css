@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(90deg, rgba(33,75,81,1) 0%, rgba(33,75,81,1) 100%);;
+    background: #387480;
     margin: 0;
 }
 
@@ -60,7 +60,7 @@ p{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background: linear-gradient(90deg, rgba(14,59,67,1) 0%, rgba(14,59,67,1) 100%);
+    background: #165c68dc;
     text-decoration: none;
     color: white;
     width: 100%;
