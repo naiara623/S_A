@@ -1,6 +1,6 @@
    nav{
    
-       background-color: #155763;
+       background-color: #114a56;
        height: 115px;
        width: 100.5%;
        display: flex;
@@ -35,6 +35,7 @@
  align-items: center;
  position: relative;
  width: 130%;
+ margin-top: -7.3%;
 }
 
 .input {

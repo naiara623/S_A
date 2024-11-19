@@ -29,7 +29,7 @@ function Tela_Principal() {
 
          <div className='carrossel'>
               <div className="div-carrossel">
-                 <img className="carrossel_img" src="frase_carrosel1.png" alt="" />
+                 <img className="carrossel_img" src="cornovafrase.png" alt="" />
                   {/* <Slider {...settings}>
                             {images.map((image, index) => (
                              <div key={index}>

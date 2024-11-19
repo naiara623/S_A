@@ -3,7 +3,7 @@
     /* border: 5px solid rgb(10, 68, 162); */
     width: 100vw;
     height: 100vh;
-    background-color: #387480;
+    background-color: #155864;
     overflow: hidden;
 
 }
@@ -41,7 +41,49 @@ border-radius: 19px;
     
 }
 
-.img-profissional{
+.img-profissional1{
+    border-radius: 200%;
+    width: 25%;
+    margin-left:4% ;
+    margin-top: 3%;
+}
+.img-profissional2{
+    border-radius: 200%;
+    width: 25%;
+    margin-left:4% ;
+    margin-top: 3%;
+}
+.img-profissional3{
+    border-radius: 200%;
+    width: 25%;
+    margin-left:4% ;
+    margin-top: 3%;
+}
+.img-profissional4{
+    border-radius: 200%;
+    width: 25%;
+    margin-left:4% ;
+    margin-top: 3%;
+}
+.img-profissional5{
+    border-radius: 200%;
+    width: 25%;
+    margin-left:4% ;
+    margin-top: 3%;
+}
+.img-profissional6{
+    border-radius: 200%;
+    width: 25%;
+    margin-left:4% ;
+    margin-top: 3%;
+}
+.img-profissional7{
+    border-radius: 200%;
+    width: 25%;
+    margin-left:4% ;
+    margin-top: 3%;
+}
+.img-profissional8{
     border-radius: 200%;
     width: 25%;
     margin-left:4% ;
@@ -163,7 +205,7 @@ width: 99.5%;
     height: 33%;
     margin-top: 3%;
     border-radius: 5%;
-    background-color: #165c68dc;
+    background-color: #256976;
     margin-left: 1%;
 }
 .containe_profissional2{
@@ -172,7 +214,7 @@ width: 99.5%;
     height: 33%;
     margin-top: -0.5%;
     border-radius: 5%;
-    background-color: #165c68dc;
+    background-color: #256976;
     margin-left: 1% ;
 }
 
