@@ -1,6 +1,6 @@
 import React from 'react'
 
-function PreparaçãoAntecipada1() {
+function PreparacaoAntecipada1() {
   return (
     <div>
        <div class="Navbar-Container">
@@ -58,4 +58,4 @@ function PreparaçãoAntecipada1() {
   )
 }
 
-export default PreparaçãoAntecipada1
+export default PreparacaoAntecipada1

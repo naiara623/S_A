@@ -1,10 +1,9 @@
 import React from 'react'
 
-function HistóriasSociais3() {
+function TreinamentoDeSituacoes10() {
   return (
     <div>
-      
-    <div class="Navbar-Container">
+      <div class="Navbar-Container">
 
 <div class="navbar-1">
     <img src="logo spectrum.png" alt="spectrum logo" class="logo"/>
@@ -35,11 +34,11 @@ function HistóriasSociais3() {
 <div class="content">
 <div class="main-content">
 
-<h2>Histórias Sociais</h2>
-<p>Histórias sociais são narrativas que ajudam a pessoa a entender e se preparar para mudanças. Para criar histórias sociais eficazes:
-     Personalização: Adaptar a história à experiência específica da pessoa, usando nomes, lugares e situações familiares.
-     Linguagem Simples: Usar uma linguagem clara e direta, acompanhada de imagens ou ilustrações que ajudem a visualizar a situação.
-     Revisão Regular: Revisar a história regularmente para reforçar a compreensão e ajustar conforme necessário.</p>
+<h2>Treinamento de Situações</h2>
+<p>Praticar mudanças de rota em um ambiente controlado pode ajudar a pessoa a se sentir mais preparada. Algumas abordagens incluem:
+     Simulações de Viagem: Fazer simulações de viagem onde a pessoa pratica lidar com mudanças de rota, seguindo instruções de um aplicativo de navegação.
+     Role-Playing: Realizar exercícios de role-playing onde a pessoa pratica diferentes cenários de mudança de rota, ajudando a desenvolver confiança e habilidades de adaptação.
+     Feedback e Ajustes: Após cada prática, fornecer feedback construtivo e ajustar as estratégias conforme necessário para melhorar a preparação.</p>
 </div>
 <div class="sidebar">
       
@@ -59,4 +58,4 @@ function HistóriasSociais3() {
   )
 }
 
-export default HistóriasSociais3
+export default TreinamentoDeSituacoes10

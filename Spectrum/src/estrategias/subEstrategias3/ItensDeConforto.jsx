@@ -1,9 +1,9 @@
 import React from 'react'
 
-function ComunicaçãoPrévia7() {
+function ItensDeConforto() {
   return (
     <div>
-      <div class="Navbar-Container">
+       <div class="Navbar-Container">
 
 <div class="navbar-1">
     <img src="logo spectrum.png" alt="spectrum logo" class="logo"/>
@@ -34,12 +34,12 @@ function ComunicaçãoPrévia7() {
 <div class="content">
 <div class="main-content">
 
-<button href="Estratégia 1 Sons Altos.html">⬅   Comunicação Prévia</button> 
-
-<p>Informar amigos, familiares ou organizadores do evento sobre a sensibilidade a ambientes lotados pode levar a uma melhor compreensão e apoio. Aqui estão algumas dicas adicionais:
- Cartões de Informação: Criar cartões de informação que expliquem brevemente as necessidades específicas e como os outros podem ajudar. Esses cartões podem ser entregues discretamente a organizadores ou seguranças.
- Reuniões Prévias: Se possível, organizar reuniões prévias com os organizadores para discutir acomodações e garantir que todas as necessidades sejam atendidas.
- Grupos de Apoio: Participar de grupos de apoio ou fóruns on-line onde é possível compartilhar experiências e obter dicas de outras pessoas que enfrentam desafios semelhantes.</p>
+<h2>Itens de Conforto</h2>
+<p>Ter itens de conforto à mão pode proporcionar uma sensação de segurança durante a viagem. Algumas sugestões incluem:
+     Brinquedos ou Objetos Favoritos: Para crianças, ter um brinquedo favorito pode ajudar a acalmar e distrair.
+     Livros ou Música: Para adultos, levar um livro interessante ou criar uma playlist de música calmante pode tornar a viagem mais agradável.
+     Aromaterapia: Usar óleos essenciais ou sprays de aromaterapia pode ajudar a criar um ambiente relaxante no carro.
+    </p>
 </div>
 <div class="sidebar">
       
@@ -59,4 +59,4 @@ function ComunicaçãoPrévia7() {
   )
 }
 
-export default ComunicaçãoPrévia7
+export default ItensDeConforto

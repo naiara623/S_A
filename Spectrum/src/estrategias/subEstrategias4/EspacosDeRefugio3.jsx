@@ -1,6 +1,6 @@
 import React from 'react'
 
-function TécnicasDeRelaxamento5() {
+function EspacosDeRefugio3() {
   return (
     <div>
       <div class="Navbar-Container">
@@ -34,11 +34,12 @@ function TécnicasDeRelaxamento5() {
 <div class="content">
 <div class="main-content">
 
-<h2>Técnicas de Relaxamento</h2>
-<p>Praticar técnicas de relaxamento pode ajudar a gerenciar a ansiedade durante mudanças de rota. Algumas técnicas incluem:
-     Respiração Profunda: Ensinar a pessoa a praticar respiração profunda, inspirando lentamente pelo nariz e expirando pela boca.
-     Meditação Guiada: Usar aplicativos ou gravações de meditação guiada para ajudar a pessoa a relaxar e se concentrar.
-     Visualização Positiva: Incentivar a pessoa a visualizar um lugar calmo e seguro, ajudando a reduzir o estresse durante a viagem.</p>
+<button href="Estratégia 1 Sons Altos.html">⬅    Espaços de Refúgio</button> 
+
+<p>Identificar e utilizar áreas tranquilas é crucial para evitar a sobrecarga sensorial. Aqui estão algumas dicas adicionais:
+ Solicitar Acomodações: Em eventos maiores, pode ser possível solicitar acomodações específicas, como acesso a uma sala de descanso ou a permissão para usar uma entrada menos movimentada.
+ Explorar Alternativas: Se não houver áreas designadas de refúgio, procurar alternativas como cafeterias próximas, parques ou até mesmo o carro, se estiver estacionado nas proximidades.
+ Personalização do Espaço: Levar itens que ajudem a personalizar o espaço de refúgio, como uma manta, travesseiro ou até mesmo um difusor de aromas calmantes.</p>
 </div>
 <div class="sidebar">
       
@@ -58,4 +59,4 @@ function TécnicasDeRelaxamento5() {
   )
 }
 
-export default TécnicasDeRelaxamento5
+export default EspacosDeRefugio3

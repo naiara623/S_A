@@ -1,6 +1,6 @@
 import React from 'react'
 
-function TécnicasDeRelaxamento6() {
+function ReforcoPositivo8() {
   return (
     <div>
       <div class="Navbar-Container">
@@ -34,12 +34,11 @@ function TécnicasDeRelaxamento6() {
 <div class="content">
 <div class="main-content">
 
-<button href="Estratégia 1 Sons Altos.html">⬅   Técnicas de Relaxamento</button> 
-
-<p>Praticar técnicas de respiração profunda, meditação ou outras atividades calmantes pode ser extremamente benéfico. Aqui estão algumas técnicas detalhadas:
- Respiração 4-7-8: Inspirar pelo nariz contando até 4, segurar a respiração contando até 7 e expirar lentamente pela boca contando até 8. Repetir várias vezes até sentir-se mais calmo.
- Meditação Mindfulness: Focar no momento presente, observando os pensamentos e sensações sem julgamento. Aplicativos como Headspace ou Calm podem ser úteis para guiar a prática.
- Progressive Muscle Relaxation: Tensionar e relaxar grupos musculares específicos, começando pelos pés e subindo até a cabeça, para liberar a tensão acumulada.</p>
+<h2>Reforço Positivo</h2>
+<p>Reforçar positivamente a capacidade de lidar com mudanças de rota pode incentivar a adaptação. Algumas formas de reforço incluem:
+     Elogios Verbais: Reconhecer e elogiar a pessoa por sua flexibilidade e capacidade de adaptação.
+     Recompensas Tangíveis: Oferecer pequenas recompensas, como um lanche favorito ou uma atividade divertida, para celebrar o sucesso na adaptação.
+     Diário de Progresso: Manter um diário onde a pessoa possa registrar suas conquistas e reflexões sobre as mudanças, ajudando a construir confiança.</p>
 </div>
 <div class="sidebar">
       
@@ -59,4 +58,4 @@ function TécnicasDeRelaxamento6() {
   )
 }
 
-export default TécnicasDeRelaxamento6
+export default ReforcoPositivo8
