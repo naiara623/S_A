@@ -1,6 +1,6 @@
 import React from 'react'
 
-function HoráriosMenosMovimentados5() {
+function ComunicacaoPrevia7() {
   return (
     <div>
       <div class="Navbar-Container">
@@ -34,12 +34,12 @@ function HoráriosMenosMovimentados5() {
 <div class="content">
 <div class="main-content">
 
-<button href="Estratégia 1 Sons Altos.html">⬅    Horários Menos Movimentados</button> 
+<button href="Estratégia 1 Sons Altos.html">⬅   Comunicação Prévia</button> 
 
-<p>Optar por participar de eventos ou visitar locais em horários menos movimentados pode fazer uma grande diferença. Aqui estão algumas estratégias adicionais:
- Consulta de Horários: Verificar com antecedência os horários de menor movimento, seja através de sites, aplicativos ou entrando em contato diretamente com o local.
- Reservas Antecipadas: Sempre que possível, fazer reservas antecipadas para garantir acesso em horários mais tranquilos e evitar filas.
- Flexibilidade: Manter um plano flexível que permita ajustar os horários de visita conforme necessário, evitando picos de movimento.</p>
+<p>Informar amigos, familiares ou organizadores do evento sobre a sensibilidade a ambientes lotados pode levar a uma melhor compreensão e apoio. Aqui estão algumas dicas adicionais:
+ Cartões de Informação: Criar cartões de informação que expliquem brevemente as necessidades específicas e como os outros podem ajudar. Esses cartões podem ser entregues discretamente a organizadores ou seguranças.
+ Reuniões Prévias: Se possível, organizar reuniões prévias com os organizadores para discutir acomodações e garantir que todas as necessidades sejam atendidas.
+ Grupos de Apoio: Participar de grupos de apoio ou fóruns on-line onde é possível compartilhar experiências e obter dicas de outras pessoas que enfrentam desafios semelhantes.</p>
 </div>
 <div class="sidebar">
       
@@ -59,4 +59,4 @@ function HoráriosMenosMovimentados5() {
   )
 }
 
-export default HoráriosMenosMovimentados5
+export default ComunicacaoPrevia7

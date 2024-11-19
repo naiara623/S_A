@@ -1,6 +1,6 @@
 import React from 'react'
 
-function SuporteEmocional9() {
+function HorariosMenosMovimentados5() {
   return (
     <div>
       <div class="Navbar-Container">
@@ -34,11 +34,12 @@ function SuporteEmocional9() {
 <div class="content">
 <div class="main-content">
 
-<h2>Suporte Emocional</h2>
-<p>Ter alguém para conversar e expressar sentimentos pode ser extremamente reconfortante. Algumas formas de suporte incluem:
-     Conversas Regulares: Manter conversas regulares com amigos, familiares ou profissionais de apoio para discutir sentimentos e preocupações.
-     Grupos de Apoio: Participar de grupos de apoio onde a pessoa possa compartilhar experiências e aprender com os outros.
-     Sessões de Terapia: Considerar sessões de terapia com um profissional para explorar e desenvolver estratégias de enfrentamento.</p>
+<button href="Estratégia 1 Sons Altos.html">⬅    Horários Menos Movimentados</button> 
+
+<p>Optar por participar de eventos ou visitar locais em horários menos movimentados pode fazer uma grande diferença. Aqui estão algumas estratégias adicionais:
+ Consulta de Horários: Verificar com antecedência os horários de menor movimento, seja através de sites, aplicativos ou entrando em contato diretamente com o local.
+ Reservas Antecipadas: Sempre que possível, fazer reservas antecipadas para garantir acesso em horários mais tranquilos e evitar filas.
+ Flexibilidade: Manter um plano flexível que permita ajustar os horários de visita conforme necessário, evitando picos de movimento.</p>
 </div>
 <div class="sidebar">
       
@@ -58,4 +59,4 @@ function SuporteEmocional9() {
   )
 }
 
-export default SuporteEmocional9
+export default HorariosMenosMovimentados5
