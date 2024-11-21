@@ -9,10 +9,11 @@ function Boas_Vindas() {
         <img src="logo spectrum.png" alt="Logo do site" />
 
             <Link to={"/login"} className='Button'>Entrar</Link>
-            <Link to={"/cadastro"} className='Button'>Cadastrar-se</Link>
-
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <Link to={"/cadastro"} className='Button'>Cadastrar</Link>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </nav>
-     
+      
      <h1>SEJA BEM VINDO <br /> AO ESPECTRUM!</h1>
 
      <hr />
@@ -32,7 +33,7 @@ function Boas_Vindas() {
             a trazer uma vida <br /> mais confortável ás pessoas atípicas, que 
             se fazem tão <br /> presentes e essenciais em nossa sociedade.</p>
      
-        <img src="https://i.pinimg.com/564x/31/39/79/313979331e10d6f9e4bde5e7e701d8ac.jpg" alt="Carrosel sobre autismo" />
+        <img className='img' src="https://i.pinimg.com/564x/31/39/79/313979331e10d6f9e4bde5e7e701d8ac.jpg" alt="Carrosel sobre autismo" />
 
       </div>
 

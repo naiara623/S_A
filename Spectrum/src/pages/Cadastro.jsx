@@ -17,6 +17,8 @@ function Cadastro() {
       <div className='Conteiner-1'></div>
       <div className='Container'>
          <center> 
+
+          <div className="texto">
              <h1 className='escrita'>Cadastro</h1>
            
            <br /><br />
@@ -84,11 +86,11 @@ function Cadastro() {
           <svg width="18px" height="18px" viewBox="0 0 18 18">
             <path d="M 1 9 L 1 9 c 0 -5 3 -8 8 -8 L 9 1 C 14 1 17 5 17 9 L 17 9 c 0 4 -4 8 -8 8 L 9 17 C 5 17 1 14 1 9 L 1 9 Z" />
             <polyline points="1 9 7 14 15 4" />
-          </svg> &nbsp; Li e aceito os Termos de uso
+          </svg> Li e aceito os Termos de uso
         </label>
           </div>
-        <h4>Já tem conta? <Link to={"/login"}>Entrar</Link> </h4> 
-
+        <h4>Já tem conta? <Link to={"/login"} className='bu'>Entrar</Link> </h4> 
+ </div>
          </div>
         </center> 
       </div>

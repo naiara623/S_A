@@ -1,13 +1,12 @@
-.body{
-    background: rgb(14,59,67);
-  background: radial-gradient(circle, rgba(14,59,67,1) 20%, rgba(47,95,102,1) 75%);
-  height: 100vh;
-  width: 100vw;
-  margin: 0
-}
+
 
 h4{
     color: #eaf4f4;
+    margin-top: 13%;
+}
+
+.bu{
+  color: #fffdd0;
 }
 
 .Logar{
@@ -18,7 +17,7 @@ h4{
 
 
 .Conteiner-1{
-    padding-top: 1%;
+    padding-top: -5%;
   }
   .Container{
     background-color: rgba(202, 222, 213, 0.192);
@@ -46,15 +45,19 @@ h4{
     
       /* gap: 5px 3px; (Espassamento entre os elementos na linhavertical e/ou horizontal) */ 
   }
+
+  .texto{
+    margin-top: 2%;
+  }
   
   .inputs{
- margin-top: -4%;
+ margin-top: -5%;
   }
   .conteiner-botoes{
       margin-top: 20px;
   }
   .escrita{
-      color: #eaf4f4;
+      color: #E5E5E5;
       font-family: "Josefin Sans", sans-serif;
       margin-top: -3%;
   }
@@ -262,7 +265,7 @@ h4{
 
     .termos{
         margin-top: 8%;
-        margin-left: -20%;
+        margin-left: -35%;
     }
   
     .check {

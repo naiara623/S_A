@@ -14,7 +14,11 @@
   
   /* Estilos do conteúdo do modal */
   .modal-content {
+<<<<<<< HEAD
+    background-color: #789383;
+=======
     background-color: rgb(79, 161, 139);
+>>>>>>> d06dba220167b2f376090b585cc401317713dae8
     padding: 20px;
     border-radius: 8px;
     width: 300px;
@@ -31,4 +35,8 @@
     border: none;
     font-size: 20px;
     cursor: pointer;
+  }
+
+  p{
+    color: #eaf4f4;
   }

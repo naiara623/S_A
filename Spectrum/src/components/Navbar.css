@@ -1,6 +1,10 @@
    nav{
    
+<<<<<<< HEAD
        background-color: #0E3B43;
+=======
+       background-color: #114a56;
+>>>>>>> b9ce1c79f33e22b1a1adda7e69d909ecf9083360
        height: 115px;
        width: 100.5%;
        display: flex;
@@ -35,6 +39,7 @@
  align-items: center;
  position: relative;
  width: 130%;
+ margin-top: -7.3%;
 }
 
 .input {
@@ -90,17 +95,31 @@
        outline: 0;
        border: 0;
    }
+
     
-   
+/*    
    .menu{
        width: 55px;
        height: 55px;
        margin-left: 20%;
+   } */
+
+
+   .modal{
+    background-color: #165c6800;
+    color: #165c6800;
+    border: 0;
    }
+   
+   .menu{
+       margin-top: -4%;
+       margin-left: 30%;
+   }
+   
 
      .div-menu{
-
-        margin-top: -10px;
+       
+       margin-top: -8px;
      }
      
    
