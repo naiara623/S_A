@@ -6,6 +6,13 @@ function Tela_Informacoes() {
   return (
     <div>
       {/* <NavBar_Principal /> */}
+
+      <div className="container">
+        <div className="content">
+          <div className="main-content">
+
+
+          
       
  <h2>Informações sobre o TEA:</h2>
 
@@ -30,7 +37,9 @@ function Tela_Informacoes() {
 
      
     
-
+</div>
+        </div>
+      </div>
       
     </div>
   )

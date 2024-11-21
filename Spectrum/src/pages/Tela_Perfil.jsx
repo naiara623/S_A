@@ -1,8 +1,10 @@
+import Navbar from '../components/Navbar'
 import './Tela_Perfil.css'
 
 function Perfil() {
   return (
     <div className='body-perfil'>
+       <Navbar/>
       <div className="abacaxi">
         <div className="image-container">
             <img src="https://labes.inf.ufes.br/wp-content/uploads/sem-foto.jpg" alt="Descrição da Imagem" />

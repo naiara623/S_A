@@ -1,12 +1,13 @@
 import './Login.css'
+
 import { Link } from 'react-router-dom'
 import '../index.css'
 function Login() {
   return (
     <div className='body-login'>
-       <div className='container-1'>
+        <div className='container-1'>
 
-<div className='container'>
+<div className='container4'>
 <h2 className='kk'>Login</h2>
 
 <div className="input-group">
@@ -25,13 +26,15 @@ function Login() {
 <br /><br />
 
 <div className="entrar">
-  <h4 className='tim'>não tem conta? <Link to={"/cadastro"}>Cadastrar</Link></h4> 
+  <h4 className='tim'>não tem conta? <Link to={"/cadastro"} className='Link'>Cadastrar</Link></h4> 
 
 <h4 className='tim1'>Esqueceu a senha? </h4>
 </div>
 
 </div>
-</div>
+
+      </div>
+ 
     </div>
   )
 }
