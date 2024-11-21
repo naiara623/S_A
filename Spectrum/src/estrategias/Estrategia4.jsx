@@ -1,35 +1,11 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
+import './Estrategias.css'
 
 function Estrategia4() {
   return (
     <div>
-      <div class="Navbar-Container">
-
-<div class="navbar-1">
-    <img src="logo spectrum.png" alt="spectrum logo" class="logo"/>
-
-    <button onclick="estrategias()" class="menu-janela">
-        <img src="pontos-do-menu.png" alt="estrategias para usuários"/>
-    </button>
-</div>
-
-<div class="navbar-2">
-    <div class="navbar-menu">
-        <a href="./Tela 4 - Tela inicial.html">INICIO</a>
-        <a href="">ESPECIALISTAS</a>
-    </div>
-
-    <div class="navbar-pesquisa"> 
-        <img src="lupa.png" alt="barra de pesquisa" class="lupa-pesquisa"/>
-        <input type="text" class="pesquisar" id="inputPesquisar" placeholder="  Pesquisar" readonly/>
-
-        <button onclick="usuário()"  class="menu-usuario">
-            <img src="utilizador.png" alt="usuario"/>
-        </button>
-    </div>
-
-</div> 
-
+    {<Navbar />}
 
 <div class="container">
 <div class="content">
@@ -66,7 +42,6 @@ function Estrategia4() {
 </div>
 </div>
 </div>
-    </div>
   )
 }
 

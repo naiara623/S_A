@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ReforçoPositivo8() {
+function MapasEAplicativosDeNavegacao2() {
   return (
     <div>
       <div class="Navbar-Container">
@@ -34,11 +34,11 @@ function ReforçoPositivo8() {
 <div class="content">
 <div class="main-content">
 
-<h2>Reforço Positivo</h2>
-<p>Reforçar positivamente a capacidade de lidar com mudanças de rota pode incentivar a adaptação. Algumas formas de reforço incluem:
-     Elogios Verbais: Reconhecer e elogiar a pessoa por sua flexibilidade e capacidade de adaptação.
-     Recompensas Tangíveis: Oferecer pequenas recompensas, como um lanche favorito ou uma atividade divertida, para celebrar o sucesso na adaptação.
-     Diário de Progresso: Manter um diário onde a pessoa possa registrar suas conquistas e reflexões sobre as mudanças, ajudando a construir confiança.</p>
+<h2>Mapas e Aplicativos de Navegação</h2>
+<p>Usar mapas físicos e aplicativos de navegação pode ajudar a pessoa a se familiarizar com a nova rota. Algumas estratégias incluem:
+     Mapas Detalhados: Fornecer mapas impressos que destacam a nova rota e pontos de referência importantes.
+     Tutoriais de Aplicativos: Ensinar a pessoa a usar aplicativos de navegação como Google Maps, Waze ou Apple Maps, mostrando como verificar o trânsito em tempo real e encontrar rotas alternativas.
+     Simulações de Rota: Fazer simulações de viagem usando os aplicativos para que a pessoa possa praticar a navegação antes de enfrentar a mudança real.</p>
 </div>
 <div class="sidebar">
       
@@ -58,4 +58,4 @@ function ReforçoPositivo8() {
   )
 }
 
-export default ReforçoPositivo8
+export default MapasEAplicativosDeNavegacao2

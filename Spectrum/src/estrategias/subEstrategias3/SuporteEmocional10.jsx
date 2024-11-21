@@ -1,6 +1,6 @@
 import React from 'react'
 
-function MapasEAplicativosDeNavegação2() {
+function SuporteEmocional10() {
   return (
     <div>
       <div class="Navbar-Container">
@@ -34,11 +34,11 @@ function MapasEAplicativosDeNavegação2() {
 <div class="content">
 <div class="main-content">
 
-<h2>Mapas e Aplicativos de Navegação</h2>
-<p>Usar mapas físicos e aplicativos de navegação pode ajudar a pessoa a se familiarizar com a nova rota. Algumas estratégias incluem:
-     Mapas Detalhados: Fornecer mapas impressos que destacam a nova rota e pontos de referência importantes.
-     Tutoriais de Aplicativos: Ensinar a pessoa a usar aplicativos de navegação como Google Maps, Waze ou Apple Maps, mostrando como verificar o trânsito em tempo real e encontrar rotas alternativas.
-     Simulações de Rota: Fazer simulações de viagem usando os aplicativos para que a pessoa possa praticar a navegação antes de enfrentar a mudança real.</p>
+<h2>Suporte Emocional</h2>
+<p>Ter alguém para conversar e expressar sentimentos pode ser extremamente reconfortante. Algumas formas de suporte incluem:
+     Conversas Regulares: Manter conversas regulares com amigos, familiares ou profissionais de apoio para discutir sentimentos e preocupações.
+     Grupos de Apoio: Participar de grupos de apoio onde a pessoa possa compartilhar experiências e aprender com os outros.
+     Sessões de Terapia: Considerar sessões de terapia com um profissional para explorar e desenvolver estratégias de enfrentamento.</p>
 </div>
 <div class="sidebar">
       
@@ -58,4 +58,4 @@ function MapasEAplicativosDeNavegação2() {
   )
 }
 
-export default MapasEAplicativosDeNavegação2
+export default SuporteEmocional10

@@ -2,6 +2,16 @@ import './Cadastro.css'
 import { Link } from 'react-router-dom'
 import React from 'react'
 function Cadastro() {
+
+
+
+
+
+
+
+
+
+  
   return (
     <div className='body'>
       <div className='Conteiner-1'></div>

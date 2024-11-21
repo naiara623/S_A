@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ItensDeConforto6() {
+function TecnicasDeRelaxamento5() {
   return (
     <div>
       <div class="Navbar-Container">
@@ -34,12 +34,11 @@ function ItensDeConforto6() {
 <div class="content">
 <div class="main-content">
 
-<h2>Itens de Conforto</h2>
-<p>Ter itens de conforto à mão pode proporcionar uma sensação de segurança durante a viagem. Algumas sugestões incluem:
-     Brinquedos ou Objetos Favoritos: Para crianças, ter um brinquedo favorito pode ajudar a acalmar e distrair.
-     Livros ou Música: Para adultos, levar um livro interessante ou criar uma playlist de música calmante pode tornar a viagem mais agradável.
-     Aromaterapia: Usar óleos essenciais ou sprays de aromaterapia pode ajudar a criar um ambiente relaxante no carro.
-    </p>
+<h2>Técnicas de Relaxamento</h2>
+<p>Praticar técnicas de relaxamento pode ajudar a gerenciar a ansiedade durante mudanças de rota. Algumas técnicas incluem:
+     Respiração Profunda: Ensinar a pessoa a praticar respiração profunda, inspirando lentamente pelo nariz e expirando pela boca.
+     Meditação Guiada: Usar aplicativos ou gravações de meditação guiada para ajudar a pessoa a relaxar e se concentrar.
+     Visualização Positiva: Incentivar a pessoa a visualizar um lugar calmo e seguro, ajudando a reduzir o estresse durante a viagem.</p>
 </div>
 <div class="sidebar">
       
@@ -59,4 +58,4 @@ function ItensDeConforto6() {
   )
 }
 
-export default ItensDeConforto6
+export default TecnicasDeRelaxamento5
