@@ -1,11 +1,12 @@
 import React from 'react'
 import './Tela_Informaçoes.css'
-// import NavBar_Principal from '../components/NavBar_Principal'
+import Navbar from '../components/Navbar'
+
 
 function Tela_Informacoes() {
   return (
     <div>
-      {/* <NavBar_Principal /> */}
+   <Navbar />
 
       <div className="container">
         <div className="content">

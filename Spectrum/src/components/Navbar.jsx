@@ -49,7 +49,7 @@ function Navbar() {
           </div>
 
           <div className='div-menu'>
-          <button onClick={openModal}><img src="menu-.png" alt="" className='menu' /></button>
+          <button onClick={openModal}><img src="menu-.png" alt="Botão menu" /></button>
 <Modal isOpen={isModalOpen} onClose={closeModal} />
     </div>
             
