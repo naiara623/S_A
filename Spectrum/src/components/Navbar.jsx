@@ -38,7 +38,7 @@ function Navbar() {
 
           <div className='inic-espec'>
             <Link to={"/telaprincipal"} className='inicio'>INICIO</Link>      
-            <Link to={"/Telainformacoes"} className='especialistas'>INFORMAÇÕES</Link>
+            <Link to={"/teladeinformacoes"} className='especialistas'>INFORMAÇÕES</Link>
           </div>
 
           <div className='buscar'>
@@ -49,10 +49,6 @@ function Navbar() {
           </div>
 
           <div className='div-menu'>
-
-          <button onClick={openModal}><img src="menu-.png" alt="Botão menu" /></button>
-
-
           <button className='modal' onClick={openModal}><img src="Menu.png" alt="" className='menu' /></button>
          
 

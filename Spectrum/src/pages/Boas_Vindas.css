@@ -1,7 +1,6 @@
 body{
 
     background: #214B51;
-    background: #155864;
     margin: 0;
 }
 
@@ -62,7 +61,7 @@ p{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background: #114a56;
+    background: #0E3B43;
     text-decoration: none;
     color: white;
     width: 100%;
