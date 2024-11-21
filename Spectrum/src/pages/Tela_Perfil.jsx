@@ -5,29 +5,33 @@ function Perfil() {
   return (
     <div className='body-perfil'>
        <Navbar/>
-      <div className="abacaxi">
-        <div className="image-container">
-            <img src="https://labes.inf.ufes.br/wp-content/uploads/sem-foto.jpg" alt="Descrição da Imagem" />
-        </div>
-        <div className="text-container">
-            <h2>Nome Completo</h2>
-            <h4>INFORMAÇÕES DE CONTATO</h4>
-            <p>Telefone: (00) 0000-0000</p>
-            <p>Email: email@gmail.com</p>
 
-            <div className="Descrição">
-              <h5>Breve Descrição Profissional</h5>
-            </div>
+     <div className='azul'></div>
 
-            &nbsp;{/* <br> */}
+     <div className='laranja'>
 
-            <div className="Detalhes">
-                <h5>Detalhes revelantes sobre as necessidades do usuario</h5>
-            </div>
+          <div className='containe_um'>
+             <img className='keisy' src="keisy.png" alt="" />
+             <div className='blak'></div>
             
+                <div className='Informações'>
+                  <label htmlFor="">Nome:</label><br />
+                  <label htmlFor="">Idade:</label><br />
+                  <label htmlFor="">Gênero:</label><br />
+                  <label htmlFor="">Email:</label><br />
+                  <label htmlFor="">Número:</label><br />
 
-        </div>
+                <div className='kkk'></div>
+               </div>
+          </div>
+
+      <div className='containe_dois'></div>
+
+      <div className='containe_três'></div>
      </div>
+
+
+     <div className='Verde'></div>
 
     </div>
   )
