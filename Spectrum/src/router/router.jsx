@@ -6,7 +6,7 @@ import Tela_Profissional from "../pages/Tela_Profissional";
 import Tela_Perfil from "../pages/Tela_Perfil";
 import Tela_Informacoes from "../pages/Tela_Informacoes";
 import Tela_Principal from "../pages/Tela_Principal";
-
+import Esqueci_A_Senha from "../pages/Esqueci_A_Senha";
 
 import Estrategia1 from "../estrategias/Estrategia1";
 import Estrategia2 from "../estrategias/Estrategia2";
@@ -69,6 +69,7 @@ const router = createBrowserRouter([
     {path: "/perfildeprofissional", element: <Tela_Profissional />},
     {path: "/teladeinformacoes", element: <Tela_Informacoes />},
     {path: "/telaprincipal", element: <Tela_Principal />},
+    {path: "/esqueciasenha", element: <Esqueci_A_Senha />},
 
     {path: "/estrategia1", element: <Estrategia1/>},
     {path: "/estrategia2", element: <Estrategia2/>},
