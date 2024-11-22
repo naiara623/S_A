@@ -1,57 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+
+
+
 .container {
     font-family: "Roboto", sans-serif;
     margin: 0;
     background-color: #214B51;
     display: flex;
-    flex-direction: column;
     padding: 10px 20px;
     min-height: 40vmax;
     min-width: 30vmax;
 }
 
-*{
-    padding: 0%;
-    margin: 0%;
-    
-    .colunas.
-    .
-    .
-    .
-    .
-    .
-    .
-    .
-    .
-    .
-    .
-    .
-    .33
-
-
-
-
-
-    
-}
-
-.colunas {
-    margin-bottom: 10px;
-}
-
 .sidebar {
-    flex: 1;
+   height: 30vmax;
     background-color: #597B78;
-    padding: 20px;
+    margin-left: 60%;
     color: #EAF4F4;
     border-radius: 19px;
     border-color: #214B51;
-}
-
-.sidebar input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    
+    padding-left: 15%;
+    margin-top: -40.35%;
+    margin-right: 20px;
 }
 
 .sidebar h3 {
@@ -72,44 +46,32 @@
     
 }
 
-.estrategias{
-    text-decoration: none;
-    color: #EAF4F4;
-
-}
-
 .sidebar ul li:hover {
     background-color: #a0a0a0;
     cursor: pointer;
 }
 
-.estrategias {
-    display: flex;
+.container {
     flex-direction: column;
     padding: 10px 20px;
     background-color:#214B51;
     color: #EAF4F4;
     border-radius: 19px;
     border-color: #597B78;
+    text-decoration: none;
+
 }
 
-.estrategias input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    
-}
-
-.estrategias h3 {
+.container h3 {
     margin-top: 0;
 }
 
-.estrategias ul {
+.container ul {
     list-style-type: none;
     padding: 0;
 }
 
-.estrategias ul li {
+.container ul li {
     margin-bottom: 10px;
     background-color: #597B78;
     padding: 25px;
@@ -127,7 +89,31 @@ p{
 
 }
 
-.estrategias ul li:hover {
+.container ul li:hover {
     background-color: #a1afa6;
     cursor: pointer;
+}
+
+.estrategias{
+background-color: #1e515900;
+color: #EAF4F4;
+
+
+}
+
+
+.colunas2{
+    margin-right: 30vmax;
+    margin-left: -5vmax;
+    background-color: #1e5159;
+color: #EAF4F4;
+border-radius: 10%;
+    }
+
+.colunas3{
+margin-right: 5vmax;
+margin-left: -5vmax;
+background-color: #1e5159;
+color: #EAF4F4;
+border-radius: 10%;
 }
