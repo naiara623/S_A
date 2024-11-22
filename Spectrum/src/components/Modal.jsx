@@ -8,10 +8,17 @@ function Modal({ isOpen, onClose }) {
     <div className="modal-overlay" onClick={onClose}>
     <div className="modal-content" onClick={(e) => e.stopPropagation()}>
       <button className="close-btn" onClick={onClose}>X</button>
-      <h2></h2>
-     <button><Link to={"/perfildeusuario"}>Ver Perfil</Link></button> 
-     <button><Link to={"/perfildeusuario"}></Link></button> 
-     <button><Link to={"/perfildeusuario"}></Link></button> 
+
+    <Link className='Link' to={"/perfildeusuario"}>Ver Perfil</Link>
+    <br /><br />
+    <Link className='Link' to={"/estrategia1"}>Estrategias</Link>
+    <br /><br />
+    <Link className='Link' to={"#"}>Agendamentos</Link>
+    <br /><br />
+    <Link className='Link' to={"#"}>Configurações</Link>
+
+     
+
     </div>
   </div>
   )

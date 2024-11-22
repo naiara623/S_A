@@ -14,12 +14,16 @@
   
   /* Estilos do conteúdo do modal */
   .modal-content {
+    background-color: #789383;
     background-color: rgb(79, 161, 139);
     padding: 20px;
     border-radius: 8px;
     width: 300px;
+    height: 60%;
     text-align: center;
     position: relative;
+    margin-left:84%;
+    margin-top: -5.7%;
   }
   
   /* Estilo do botão de fechar */
@@ -32,3 +36,21 @@
     font-size: 20px;
     cursor: pointer;
   }
+
+  p{
+    color: #eaf4f4;
+  }
+
+  .Link{
+    color: #fffdd0;
+  }
+
+  .ui{
+    background-color: transparent;
+    width: 40%;
+    height: 5%;
+  }
+
+ 
+
+ 

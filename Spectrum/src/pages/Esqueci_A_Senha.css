@@ -1,0 +1,15 @@
+
+.conteiner-senha{
+    background-color: #597B78;
+    margin-top: 10%;
+    width: 27%;
+    height: 70%;
+    margin-left: 36%;
+    border: 2px solid #bc43c7;
+    border-radius: 25px;
+}
+.modificar-s{
+    font-size: 400%;
+    border: 2px solid #271991;
+    text-align: center;
+}
