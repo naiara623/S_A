@@ -9,6 +9,10 @@
 }
 
 
+
+   
+
+
 .carrossel{
     /* border: 5px solid red; */
     height: 260px;
@@ -175,14 +179,35 @@ P{
     font-family: "josefin Sans", sans-serif;
     font-size: 20px;
     margin-top: 20px;
-    margin-left: 125px;
-    margin-top: -15px;
+    margin-left: 140px;
+    margin-top: 2%;
 }
 
-.Button_profissional{
-    margin-top: 27px;
-    margin-left: 60%;
+.Nome_profissãoL{
+    font-family: "josefin Sans", sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 124px;
+    margin-top: 2%;
 }
+
+.Nome_profissão2{
+    font-family: "josefin Sans", sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 131px;
+    margin-top: 2%;
+}
+
+.Nome_profissão3{
+    font-family: "josefin Sans", sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 147px;
+    margin-top: 2%;
+}
+
+
 
 
 .profissionais{
@@ -203,7 +228,7 @@ width: 99.5%;
     /* border: 5px solid chocolate; */
     width: 20%;
     height: 33%;
-    margin-top: 3%;
+    margin-top: 4%;
     border-radius: 5%;
     background-color: #256976;
     margin-left: 1%;
@@ -219,3 +244,61 @@ width: 99.5%;
 }
 
 
+.Button_profissional {
+    --color: #EAF4F4;
+    padding: 0.8em 1.7em;
+    background-color: #EAF4F4;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    color: #214b51;
+    z-index: 1;
+    margin-top: 2%;
+    padding-top: -1px;
+    margin-left: 35%;
+    width: 45%;
+    height: 20%;
+     }
+     
+     .Button_profissional::before, .Button_profissional::after {
+      content: '';
+        display: block;
+        width: 20%;
+        height: 10px;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        border-radius: 50%;
+        z-index: -1;
+        background-color: var(--color);
+        transition: 1s ease;
+     }
+     
+     .Button_profissional::before {
+      top: -1em;
+      left: -1em;
+     }
+     
+     .button::after {
+      left: calc(100% + 1em);
+      top: calc(100% + 1em);
+     }
+     
+     .Button_profissional:hover::before, .Button_profissional:hover::after {
+      height: 410px;
+        width: 410px;
+     }
+     
+     .Button_profissional:hover {
+      color: #214b51;
+     }
+     
+     .Button_profissional:active {
+      filter: brightness(.8);
+     }
