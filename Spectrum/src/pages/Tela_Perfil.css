@@ -21,6 +21,7 @@
     border:  5px solid  rgb(205, 7, 7);
     width: 33.3%;
     display: flex ;
+    justify-content: center;
 }
 
 .keisy{
