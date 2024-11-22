@@ -4,70 +4,134 @@
 
 }
 
-.azul{
-    border:  3px solid  rgb(11, 91, 182);
-    width: 99.6%;
-    height: 10%;
-}
-
-.laranja{
-    border:  5px solid  rgb(205, 129, 7);
-    width:  99.5%;
-    height: 60%;
-    display: flex;
-}
-
-.containe_um{
-    border:  5px solid  rgb(205, 7, 7);
-    width: 33.3%;
-    display: flex ;
-    justify-content: center;
-}
-
-.keisy{
-    width:  50%;
-    height: 80%;
-    /* border:  5px solid  rgb(184, 112, 112); */
-    display: flex;
-}
-
-.Informações{
-    /* border:  5px solid  rgb(103, 32, 174); */
-    display: flex;
-    height: 45%;
-    width: 35%;
-    margin-left: 16%;
-    margin-top: -0%;
-    flex-direction: column;
-}
-
-.sobre-mim{
-    font-size: 170%;
-    margin-left: 0%;
-}
-.info{
-    font-size: 120%;
-}
-.botperfil{
-    margin-top: 78%;
-    width: 20%;
-    height: 10%;
-    display: flex;
-    justify-content: space-around;
-    margin-left: -47%;
-}
-.containe_dois{
-    border:  5px solid  rgb(192, 205, 7);
-    width: 33.3%;
-}
-
-.containe_três{
-    border:  5px solid  rgb(7, 205, 165);
-    width: 33.3%;
-}
 
 .Verde{
     border:  5px solid  rgb(11, 182, 22);
-    width: 99.5%;
-    height: 15%;
+    width: 100%;
+    height: 8%;
+}
+.Azul{
+    border:  5px solid  rgb(11, 96, 182);
+    width: 100%;
+    height: 35%;
+}
+.Ciano{
+    border:  5px solid  rgb(13, 231, 209);
+    width: 19.8%;
+    height: 100%;
+    margin-left: 80.2%;
+    margin-top: -17%;
+}
+.Cinza{
+    background-color: #1f5962d3;
+    border:  5px solid  rgb(96, 101, 101);
+    width: 60.4%;
+    height: 100%;
+    margin-left: 19.8%;
+    margin-top: -16.88%;
+}
+.foto-p{
+   width: 19%;
+   height: 66%;
+   border-radius: 100%;
+   margin-top: 4.8%;
+   margin-left: 20%;
+   display: flex;
+   justify-content: space-around;
+}
+.nome{
+   display: flex;
+   justify-content: space-around;
+   margin-left: 47%;
+   margin-top: -17%;
+   font-size: 390%;
+}
+.idade{
+    margin-left: 47%;
+    margin-top: -1%;
+    font-size: 150%;
+}
+.genero{
+    margin-left: 47%;
+    margin-top: 1%;
+    font-size: 150%;
+}
+
+.Amarelo{
+    background-color: #1f5962d3;
+    border: 5px solid #d1ea2ed3 ;
+    width: 29%;
+    height: 39%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -39.02vmin;
+    margin-left: 20%;
+
+}
+.info-contato{
+    font-size: 160%;
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    height: 10%;
+    margin-left: -33%;
+    border: 5px solid #fcfcfbd3 ;
+}
+.telefone{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 18%;
+    margin-left: -170%;
+    width: 45%;
+    height: 9%;
+    border: 5px solid #ffffffd3 ;
+}
+.gmail{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30%;
+    margin-left: -138.7%;
+    width: 45%;
+    height: 9%;
+    border: 5px solid #fffffed3 ;
+}
+.Laranja{
+    background-color: #1f5962d3;
+    width: 29%;
+    height: 39.1%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -19.4%;
+    margin-left: 51%;
+    border: 5px solid #b9871ad3 ;
+}
+.Vermelho{
+    border:  5px solid  rgb(223, 38, 22);
+    width: 19.8%;
+    height: 100%;
+}
+.Rosa{
+    border:  5px solid  rgb(171, 30, 199);
+    width: 20%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.Roxo{
+    border:  5px solid  rgb(74, 12, 208);
+    width: 20%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -19.85%;
+    margin-left: 80%; 
+}
+.Branco{
+    border:  5px solid  rgb(249, 249, 249);
+    width: 100%;
+    height: 4.9%;
+    display: flex;
+    margin-top: -0.1%;
+    justify-content: space-around;
 }
