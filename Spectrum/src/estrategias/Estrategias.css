@@ -1,8 +1,3 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    }
 
 
 
@@ -11,21 +6,23 @@
     margin: 0;
     background-color: #214B51;
     display: flex;
-    padding: 10px 20px;
-    min-height: 40vmax;
-    min-width: 30vmax;
+    padding: 10px 10px;
+    min-height: 40%;
+    min-width: 30%;
 }
 
 .sidebar {
-   height: 30vmax;
+ 
+    height: 42.63vmax;
     background-color: #597B78;
-    margin-left: 60%;
+    margin-left: 115vh;
     color: #EAF4F4;
     border-radius: 19px;
     border-color: #214B51;
-    padding-left: 15%;
-    margin-top: -40.35%;
-    margin-right: 20px;
+    padding-left: 15vh;
+   margin-top: -1vh;
+    margin-right: -19px;
+    
 }
 
 .sidebar h3 {
@@ -95,25 +92,61 @@ p{
 }
 
 .estrategias{
-background-color: #1e515900;
+background-color: #1e5159;
 color: #EAF4F4;
+height: 10vh;
+margin-left: 0vh;
+width: 80vh;
+border-color: #1e515900;
+border-radius: 30px
+}
 
+.colunas1{
+    border: 1vh solid rgb(42, 85, 205);
+    margin-left: -105pt;
 
 }
 
+.colunas{
+    height: 55vh;
+background-color: #214B51;
+margin-left: -132vh;
+margin-right: 84vh;
+border: 1vh solid rgb(205, 129, 7);
+height: -100vh;
+margin-top: 0%;
+}
 
 .colunas2{
-    margin-right: 30vmax;
-    margin-left: -5vmax;
+    margin-right: 30vh;
+    margin-left: -5vh;
     background-color: #1e5159;
 color: #EAF4F4;
-border-radius: 10%;
+border-radius: 10vh;
     }
 
 .colunas3{
-margin-right: 5vmax;
-margin-left: -5vmax;
+margin-right: 5vh;
+margin-left: -5vh;
 background-color: #1e5159;
 color: #EAF4F4;
-border-radius: 10%;
+border-radius: 10vh;
+}
+
+.ppp{
+height: 20vh;
+margin-left: -132vh;
+margin-right: 84vh;
+border: 0.7vh solid rgb(242, 220, 184);
+margin-block-start: -77.5%;
+
+}
+
+.ppp3{
+    margin-top: -10px;
+}
+.ppp1{
+    
+margin-left: -190%;
+margin-right: 100vh;
 }
