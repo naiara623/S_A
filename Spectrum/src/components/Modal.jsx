@@ -9,12 +9,16 @@ function Modal({ isOpen, onClose }) {
     <div className="modal-content" onClick={(e) => e.stopPropagation()}>
       <button className="close-btn" onClick={onClose}>X</button>
 
-    <Link className='Link' to={"/perfildeusuario"}>Ver Perfil</Link>
+     <img className='foto' src="do-utilizador.png" alt="Ver Perfil" />
+    <Link className='Link' to={"/perfildeusuario"}> Ver Perfil</Link>
     <br /><br />
+    <img className='foto' src="icone-estrategia.png" alt="Estrategias" />
     <Link className='Link' to={"/estrategia1"}>Estrategias</Link>
     <br /><br />
+    <img className='foto' src="icone-agendamento.png" alt="Agendamento" />
     <Link className='Link' to={"#"}>Agendamentos</Link>
     <br /><br />
+    <img className='foto' src="icone-configuração.png" alt="Configuração" />
     <Link className='Link' to={"#"}>Configurações</Link>
 
      

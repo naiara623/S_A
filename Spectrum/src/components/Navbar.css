@@ -1,5 +1,8 @@
    nav{
+<<<<<<< HEAD
    
+=======
+>>>>>>> 8e68210d0805d282c6e7e491ff79d521fb117b9d
 
        background-color: #0E3B43;
        height: 115px;
@@ -89,6 +92,7 @@
        height: 30px;
        width: 400px;
        border-radius: 11px;
+       margin-left: -10%;
        outline: 0;
        border: 0;
    }
@@ -136,7 +140,7 @@
     height: 15px;
     font-family: "josefin Sans", sans-serif;
     font-size: 20px;
-    margin-left: -59px;
+    margin-left: -65%;
     }
 
     .especialistas{

@@ -51,56 +51,56 @@ function Tela_Principal() {
                            <img className="img-profissional1" src="Milena Bairro.jpg" alt="" />
                               <p className="nome_Milena">Milena Bairro</p>
                              <h1 className="Nome_profissão">Neupsicopedagoga</h1>
-                             <button className="Button_profissional" >Entre em contato</button>
+                             <button className="Button_profissional">Saiba mais</button>
                         </div>
 
                         <div className="containe_profissional1">
                             <img className="img-profissional2" src="Gustavo Souza.jpg" alt="" />
                             <p className="nomes_Gustavo">Gustavo Souza</p>
                             <h1 className="Nome_profissão">Psicopedagoga</h1>
-                             <button className="Button_profissional" >Entre em contato</button>
+                             <button className="Button_profissional">Saiba mais</button>
                         </div>
 
                         <div className="containe_profissional1">
                             <img className="img-profissional3" src="Luciana Bittencourt.jpg" alt="" />
                             <p className="nomes_Luciana">Luciana Bittencourt</p>
-                            <h1 className="Nome_profissão">Terapeuta Ocupacional</h1>
-                             <button className="Button_profissional" >Entre em contato</button>
+                            <h1 className="Nome_profissãoL">Terapeuta Ocupacional</h1>
+                             <button className="Button_profissional">Saiba mais</button>
                         </div>
 
                           <div className="containe_profissional1">
                               <img className="img-profissional4" src="Luciana Bittencourt.jpg" alt="" />
                               <p className="nomes_Lilia">Lilia Bittencourt</p>
-                              <h1 className="Nome_profissão">Atendente Terapeutica</h1>
-                             <button className="Button_profissional" >Entre em contato</button>
+                              <h1 className="Nome_profissão2">Atendente Terapeutica</h1>
+                             <button className="Button_profissional">Saiba mais</button>
                           </div>
                  
                               <div className="containe_profissional2">
                                   <img className="img-profissional5" src="Milena Bairro.jpg" alt="" />
                                   <p className="nomes_Wanda">Wanda Bairro</p>
                                   <h1 className="Nome_profissão">Fisioterapeuta</h1>
-                             <button className="Button_profissional" >Entre em contato</button>
+                             <button className="Button_profissional">Saiba mais</button>
                                 </div>
 
                               <div className="containe_profissional2">
                                   <img className="img-profissional6" src="Gustavo Souza.jpg" alt="" />
                                   <p className="nomes_Aghata">Aghata Souza</p>
                                   <h1 className="Nome_profissão">Pscicologa</h1>
-                             <button className="Button_profissional" >Entre em contato</button>
+                             <button className="Button_profissional">Saiba mais</button>
                               </div>
 
                               <div className="containe_profissional2">
                                   <img className="img-profissional7" src="Gustavo Souza.jpg" alt="" />
                                   <p className="nomes_James">James Souza</p>
-                                  <h1 className="Nome_profissão">Terapeuta</h1>
-                             <button className="Button_profissional" >Entre em contato</button>
+                                  <h1 className="Nome_profissão3">Terapeuta</h1>
+                             <button className="Button_profissional">Saiba mais</button>
                               </div>
 
                               <div className="containe_profissional2">
                                   <img className="img-profissional8" src="Gustavo Souza.jpg" alt="" />
                                   <p className="nomes_Keisy">Keisy Cristina</p>
                                   <h1 className="Nome_profissão">Psiquiatra</h1>
-                             <button className="Button_profissional" >Entre em contato</button>
+                             <button className="Button_profissional">Saiba mais</button>
                               </div>
                         
 

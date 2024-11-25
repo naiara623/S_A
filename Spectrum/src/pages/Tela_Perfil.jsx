@@ -5,37 +5,40 @@ function Perfil() {
   return (
     <div className='body-perfil'>
       <Navbar />
+      <div className='Verde'></div>
 
-      <div className='azul'></div>
+      <div className='Azul'>
 
-      <div className='laranja'>
+      <div className='Vermelho'></div>
+      <div className='Ciano'></div>
 
-        <div className='containe_um'>
-          <img className='keisy' src="keisy.png" alt="" />
+      <div className='Cinza'>
+      <img className='foto-p' src="keisy.png" alt="" />
+      <h1 className='nome'>Keisy Souza</h1>
+      <p className='idade'>Idade: 10 Anos</p>
+      <p className='genero'>Gênero: Femenino</p>
 
-          <button className='botperfil'></button>
-          
-          <div className='blak'></div>
-          <div className='Informações'>
-            <p className='sobre-mim'>Sobre mim</p>
-            <br />
-            <label className='info'>Nome:</label><br />
-            <label className='info'>Idade:</label><br />
-            <label className='info'>Gênero:</label><br />
-            <label className='info'>Email:</label><br />
-            <label className='info'>Número:</label><br />
-
-            <div className='kkk'></div>
-          </div>
-        </div>
-
-        <div className='containe_dois'></div>
-
-        <div className='containe_três'></div>
+      </div>
       </div>
 
+      <div className='Rosa'></div>
+      <div className='Amarelo'>
+        <h2 className='info-contato'>INFORMAÇÕES DE CONTATO</h2>
+        <p className='telefone'>Telefone: (00) 0000-0000</p>
+        <p className='gmail'>Email: email@gmail.com</p>
+      </div>
+      <div className='Laranja'></div>
+      <div className='Roxo'></div>
 
-      <div className='Verde'></div>
+      <div className='Branco'></div>
+     
+     
+
+
+
+        
+
+
 
     </div>
   )
