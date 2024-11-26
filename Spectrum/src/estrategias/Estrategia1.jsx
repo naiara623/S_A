@@ -4,7 +4,7 @@ import './Estrategias.css'
 
 function Estrategia1() {
   return (
-    <div>
+<div>
   {<Navbar />}
 
 <div class="container">
@@ -13,12 +13,12 @@ function Estrategia1() {
       
 <h3>Estratégias para:</h3>
 
-<div className='colunas1'>
+<div className='todas-colunas'>
 
- <button className='estrategias' >Sons Altos</button><br /><br />
- <button className='estrategias' >Mudança na Rotina</button><br /><br />
- <button className='estrategias' >Rotas diferentes do previsto</button><br /><br />
- <button className='estrategias' >Muitas pessoas em um ambiente</button><br /><br />
+ <button className='estrategias1' >Sons Altos</button><br /><br />
+ <button className='estrategias2' >Mudança na Rotina</button><br /><br />
+ <button className='estrategias3' >Rotas diferentes do previsto</button><br /><br />
+ <button className='estrategias4' >Muitas pessoas em um ambiente</button><br /><br />
 </div>
 
 <div className='ppp'>
