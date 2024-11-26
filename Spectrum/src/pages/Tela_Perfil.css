@@ -39,8 +39,8 @@
     width: 19%;
     height: 66%;
     border-radius: 100%;
-    margin-left: 20%;
-    border: 0px solid rgba(0, 0, 0, 0) ;
+    margin-left: 10%;
+    border: 0px solid black ;
     display: flex;
     justify-content: space-around;
     margin-top: 4.5%;
@@ -50,19 +50,19 @@
 .nome {
     display: flex;
     justify-content: space-around;
-    margin-left: 47%;
-    margin-top: -19%;
+    margin-left: 35%;
+    margin-top: -23%;
     font-size: 390%;
 }
 
 .idade {
-    margin-left: 47%;
+    margin-left: 35.5%;
     margin-top: -1%;
     font-size: 150%;
 }
 
 .genero {
-    margin-left: 47%;
+    margin-left: 35.5%;
     margin-top: 1%;
     font-size: 150%;
 }
@@ -93,7 +93,7 @@
     height: 7%;
     /* border: 5px solid blue ; */
     margin-top: 2%;
-    margin-left: 39%;
+    margin-left: 15%;
     /* font-size: 160%;
     margin-left: 5%;
     margin-top: 4%;
@@ -110,7 +110,7 @@
     /* border: 5px solid rgb(184, 46, 138) ; */
     width: 40%;
     height: 20%;
-    margin-left: -64%;
+    margin-left: -109%;
     font-size: 120%;
 }
 
@@ -123,8 +123,8 @@
     height: 6vh;
     width: 7vw;
     /* border: 5px solid rgb(16, 32, 176); */
-    margin-top: 110%;
-    margin-left: -125%;
+    margin-top: 155%;
+    margin-left: -180%;
     border-radius: 10px;
 }
 
@@ -147,7 +147,23 @@
     margin-left: 51%;
     /* border: 5px solid #b9871ad3 ; */
 }
+.detalhes {
+    /* border: 5px solid rgb(249, 249, 249); */
+    height: 10%;
+    margin-left: -22%;
+    font-size: 145%;
 
+}
+.marrom {
+    /* border: 5px solid rgb(249, 249, 249); */
+    height: 65%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: -155%;
+    margin-top: 15%;
+    font-size: 120%;
+}
 .Vermelho {
     /* border:  5px solid  rgb(223, 38, 22); */
     width: 19.8%;
@@ -182,21 +198,5 @@
     justify-content: space-around;
 }
 
-.marrom {
-    /* border: 5px solid rgb(249, 249, 249); */
-    height: 65%;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    margin-left: -112%;
-    margin-top: 15%;
-    font-size: 120%;
-}
 
-.detalhes {
-    /* border: 5px solid rgb(249, 249, 249); */
-    height: 10%;
-    margin-left: -8.5%;
-    font-size: 145%;
 
-}
