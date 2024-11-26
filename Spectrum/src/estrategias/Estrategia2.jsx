@@ -1,49 +1,55 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
-import './Estrategias.css'
+import './Estrategia2a4.css'
 
 function Estrategia2() {
   return (
     <div>
     {<Navbar />}
+    <div class="tela">
+<div class="barra-estrategias">
+    
+ <div className='cor-estrategias'>
+ <div className='coluna-estrategia'>
+ <h3 className='estrategias-para'>Estratégias para:</h3>
+ 
+ <button className='estrategia1' ><h4 className="s1"><Link to={'/estrategia1'}>Sons Altos</Link></h4></button>
+ <button className='estrategia1' ><h4 className="s2"><Link to={'/estrategia2'}>Mudança na Rotina</Link></h4></button>
+ <button className='estrategia1' ><h4 className="s3"><Link to={'/estrategia3'}>Rotas diferentes do previsto</Link></h4></button>
+ <button className='estrategia1' ><h4 className="s4"><Link to={'/estrategia4'}>Muitas pessoas em um ambiente</Link></h4></button>
+ </div>
+ </div>
 
-<div class="container">
-<div class="content">
-<div class="main-content">
+<div className="text">
+  <h2 className='text1'>Mudanças na Rotina</h2>
+ <p className='text2'>Lidar com mudanças de rotina pode ser desafiador para pessoas autistas, mas existem diversas estratégias que podem ajudar:</p>
+</div>
+ 
+ 
+ <div class="estra"> 
+ <button className='Preparacao'><h4 className="p">Preparação antecipada</h4></button><br/>
+ <button className='vizualizar'><h4 className="p2">Visualização e roteiros</h4></button><br/>
+ <button className='manter'><h4 className="p3">Manter elementos constantes</h4></button><br/>
+ <button className='dividir'><h4 className="p4">Dividir em etapas</h4></button><br/>
+ <button className='historias'><h4 className="p5">Histórias sociais</h4></button><br/>
+ <button className='Tecnicas'><h4 className="p6">Técnicas de relaxamento</h4></button><br/>
+ <button className='reforco'><h4 className='p7'>Reforço positivo</h4></button><br/>
+ <button className='introduzir'><h4 className="p8">Introduzir flexibilidade gradualmente</h4></button><br/>
+ <button className='suporte'><h4 className="p9">Suporte emocional</h4></button><br/>
+ <button className='objetos'><h4 className="p10">Objetos de conforto</h4></button><br/>
+ 
+ </div>
 
-<h2>Mudanças na Rotina</h2>
-<p>Lidar com mudanças de rotina pode ser desafiador para pessoas autistas, mas existem diversas estratégias que podem ajudar:</p>
-<div class="estrategias">
-<ul>
-<li><button href="1.2 Preparação antecipada.html">Preparação antecipada</button></li><br/>
-<li><button href="2.2 Visualização e roteiros.html">Visualização e roteiros</button></li><br/>
-<li><button href="3.2 Manter elementos constantes.html">Manter elementos constantes</button></li><br/>
-<li><button href="4.2 Dividir em etapas.html">Dividir em etapas</button></li><br/>
-<li><button href="5.2 Histórias sociais.html">Histórias sociais</button></li><br/>
-<li><button href="6.2 Técnicas de relaxamento.html">Técnicas de relaxamento</button></li><br/>
-<li><button href="7.2 Reforço positivo.html">Reforço positivo</button></li><br/>
-<li><button href="8.2 Introduzir flexibilidade gradualmente.html">Introduzir flexibilidade gradualmente</button></li><br/>
-<li><button href="9.2 Suporte emocional.html">Suporte emocional</button></li><br/>
-<li><button href="10.2 Objetos de conforto.html">Objetos de conforto</button></li><br/>
-</ul>
+<div className="ppp2">
+  <p>Essas estratégias podem ser adaptadas para atender às necessidades individuais de cada pessoa autista, já que cada indivíduo é único e pode responder de maneira diferente às mudanças.</p>
 </div>
-<p>Essas estratégias podem ser adaptadas para atender às necessidades individuais de cada pessoa autista, já que cada indivíduo é único e pode responder de maneira diferente às mudanças.</p>
-</div>
-<div class="sidebar">
-      
-<h3>Estratégias para:</h3>
-<ul>
-<li> <button href="Estratégia 1 Sons Altos.html">Sons Altos</button></li>
-<li> <button href="Estratégia 2 Mudança na Rotina.html">Mudança na Rotina</button></li>
-<li> <button href="Estratégia 3 Rotas diferentes do previsto.html">Rotas diferentes do previsto</button></li>
-<li> <button href="Estratégia 4 Muitas pessoas em um ambiente.html">Muitas pessoas em um ambiente</button></li>
-</ul>
+ 
+ </div>
+ 
 
-</div>
-</div>
-</div>
-</div>
-  )
-}
-
-export default Estrategia2
+ </div>
+ </div>
+   )
+ }
+ export default Estrategia2
