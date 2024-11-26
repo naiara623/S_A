@@ -27,7 +27,7 @@
 
 .Cinza {
     background-color: #1f5962d3;
-    /* border:  5px solid  rgb(96, 101, 101); */
+    border:  0.1px solid  #1f5962d3;
     width: 60.0%;
     height: 100%;
     margin-left: 20%;
@@ -35,21 +35,24 @@
    
 }
 
-.foto-p {
+.foto-u {
     width: 19%;
     height: 66%;
     border-radius: 100%;
-    margin-top: 0%;
     margin-left: 20%;
-   
-    
+    border: 3px solid ;
+    /* border: 3px solid wheat; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4.5%;
 }
+
 
 .nome {
     display: flex;
     justify-content: space-around;
     margin-left: 47%;
-    margin-top: -14%;
+    margin-top: -19%;
     font-size: 390%;
 }
 
@@ -76,49 +79,65 @@
     margin-left: 20%;
 
 }
+.info{
+    margin-left: -57%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+}
 
 .info-contato {
-    font-size: 160%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 150%;
+    width: 26vw;
+    height: 7%;
+    /* border: 5px solid blue ; */
+    margin-top: 2%;
+    margin-left: 39%;
+    /* font-size: 160%;
+    margin-left: 5%;
     margin-top: 4%;
-    width: 150%;
-    height: 10%;
-    margin-left: 0%;
-    
-    /* border: 5px solid #fcfcfbd3 ; */
+    height: 8%;
+    max-width: none;
+    border: 5px solid blue ;
+    width: 200vw; */
+
+}
+.contato{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12%;
+    /* border: 5px solid rgb(184, 46, 138) ; */
+    width: 40%;
+    height: 20%;
+    margin-left: -64%;
+    font-size: 120%;
 }
 
-.telefone {
-    margin-top: 15%;
-    margin-left: -20%;
-    width: 190%;
-    height: 9%;
-    border: 5px solid #ffffffd3 ;
-}
 
 .gmail {
-  
-    margin-top: 30%;
-    margin-left: -1%;
-    width: 190%;
-    height: 9%;
-    border: 5px solid #fffffed3 ; 
+    margin-top: 10%;
 }
 
 .butt-edi{
-    width: 19%;
-    height: 10%;
-    border: 5px solid blueviolet;
-    margin-top: 45%;
-  
+    height: 6vh;
+    width: 7vw;
+    /* border: 5px solid rgb(16, 32, 176); */
+    margin-top: 110%;
+    margin-left: -125%;
+    border-radius: 10px;
 }
 
 .butt-dele{
-    width: 19%;
-    height: 10%;
-    border: 5px solid blueviolet;
+    height: 6vh;
+    width: 7vw;
+    /* border: 5px solid blueviolet; */
     margin-top: 45%;
-
+    margin-left: 12%;
+    border-radius: 10px;
 }
+
 .Laranja {
     background-color: #1f5962d3;
     width: 29%;
