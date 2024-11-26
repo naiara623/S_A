@@ -12,10 +12,10 @@ function Perfil() {
                 <div className='Ciano'></div>
 
                 <div className='Cinza'>
-                <img  className='foto-u' src="keisy.png" alt="" />
-                <h1 className='nome'>Keisy Souza</h1>
+                <img  className='foto-u' src="Samuel.png" alt="" />
+                <h1 className='nome'>Samuel Hernandes</h1>
                 <p className='idade'>Idade: 10 Anos</p>
-                <p className='genero'>Gênero: Femenino</p>
+                <p className='genero'>Gênero: Masculino</p>
                 </div>
           </div>
 

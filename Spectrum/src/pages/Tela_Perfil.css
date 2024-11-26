@@ -40,8 +40,7 @@
     height: 66%;
     border-radius: 100%;
     margin-left: 20%;
-    border: 3px solid ;
-    /* border: 3px solid wheat; */
+    border: 0px solid rgba(0, 0, 0, 0) ;
     display: flex;
     justify-content: space-around;
     margin-top: 4.5%;
