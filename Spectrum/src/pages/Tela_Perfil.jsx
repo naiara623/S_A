@@ -12,7 +12,7 @@ function Perfil() {
                 <div className='Ciano'></div>
 
                 <div className='Cinza'>
-                <img className='foto-p' src="keisy.png" alt="" />
+                <img  className='foto-u' src="keisy.png" alt="" />
                 <h1 className='nome'>Keisy Souza</h1>
                 <p className='idade'>Idade: 10 Anos</p>
                 <p className='genero'>Gênero: Femenino</p>
@@ -22,11 +22,17 @@ function Perfil() {
       <div className='Rosa'></div>
 
           <div className='Amarelo'>
+            <div className='info'>
                 <h2 className='info-contato'>INFORMAÇÕES DE CONTATO</h2>
-                <label className='telefone' htmlFor="">TELEFONE: (00) 0000-0000</label>
-                <label className='gmail' htmlFor="">GMAIL: email@gmail.com </label>
+                <div className='contato'>
+                <label htmlFor="">Telefone: (00) 0000-0000</label>
+                <label className='gmail' htmlFor="">Gmail: email@gmail.com </label>
+                </div>
+            </div>
+            <div>
                 <button className='butt-edi'>Editar</button> 
                 <button className='butt-dele'>Deletar</button>
+                </div>
           </div>
 
         <div className='Laranja'>
