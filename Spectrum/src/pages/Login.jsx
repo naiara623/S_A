@@ -1,14 +1,31 @@
 import './Login.css'
 import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
 import '../index.css'
 function Login() {
+const [email, setEmail] = useState('');
+const [password, setPassword] = useState('');
+const [users, setUsers] = useState([]);
+
+
+
+
+
+
+
+
+
+
+
+
   return (
     <div className='body-login'>
-       <div className='container-1'>
+        <div className='container-1'>
 
-<div className='container'>
+<div className='container4'>
 <h2 className='kk'>Login</h2>
-
+<br /><br /><br />
 <div className="input-group">
         <label className="label">Nome de usuário ou Email</label>
         <input autoComplete="off" name="text" id="text" className="input" type="e-mail" placeholder='se.email@gmail.com ou Nome Completo'/>
@@ -25,13 +42,15 @@ function Login() {
 <br /><br />
 
 <div className="entrar">
-  <h4 className='tim'>não tem conta? <Link to={"/cadastro"}>Cadastrar</Link></h4> 
+  <h4 className='tim'>não tem conta? <Link to={"/cadastro"} className='Link'>Cadastrar</Link></h4> 
 
 <h4 className='tim1'>Esqueceu a senha? </h4>
 </div>
 
 </div>
-</div>
+
+      </div>
+ 
     </div>
   )
 }

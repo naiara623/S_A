@@ -4,30 +4,54 @@ import './Tela_Perfil.css'
 function Perfil() {
   return (
     <div className='body-perfil'>
-       <Navbar/>
-      <div className="abacaxi">
-        <div className="image-container">
-            <img src="https://labes.inf.ufes.br/wp-content/uploads/sem-foto.jpg" alt="Descrição da Imagem" />
+          <Navbar />
+          <div className='Verde'></div>
+
+          <div className='Azul'>
+                <div className='Vermelho'></div>
+                <div className='Ciano'></div>
+
+                <div className='Cinza'>
+                <img className='foto-p' src="keisy.png" alt="" />
+                <h1 className='nome'>Keisy Souza</h1>
+                <p className='idade'>Idade: 10 Anos</p>
+                <p className='genero'>Gênero: Femenino</p>
+                </div>
+          </div>
+
+      <div className='Rosa'></div>
+
+          <div className='Amarelo'>
+                <h2 className='info-contato'>INFORMAÇÕES DE CONTATO</h2>
+                <label className='telefone' htmlFor="">TELEFONE: (00) 0000-0000</label>
+                <label className='gmail' htmlFor="">GMAIL: email@gmail.com </label>
+                <button className='butt-edi'>Editar</button> 
+                <button className='butt-dele'>Deletar</button>
+          </div>
+
+        <div className='Laranja'>
+              <p className='detalhes'>DETALHES RELEVANTES SOBRE O USÚARIO:</p>
+              <div className='marrom'>
+                <label htmlFor="">Qual o nivelamento do seu TEA?<br />Quando foi descorberto?</label><br />
+                <label htmlFor="">Quais as suas maiores necessidades? </label><br />
+                <label htmlFor="">Quais profissionais já o acompanham? </label><br />
+                <label htmlFor="">Quais são seus interesses? </label><br />
+                <label htmlFor="">Quais dificuldades já superou? </label><br />
+                <label htmlFor="">Tem alguma comorbidade? </label> 
+                </div>
         </div>
-        <div className="text-container">
-            <h2>Nome Completo</h2>
-            <h4>INFORMAÇÕES DE CONTATO</h4>
-            <p>Telefone: (00) 0000-0000</p>
-            <p>Email: email@gmail.com</p>
 
-            <div className="Descrição">
-              <h5>Breve Descrição Profissional</h5>
-            </div>
+      <div className='Roxo'></div>
 
-            &nbsp;{/* <br> */}
+      <div className='Branco'></div>
+     
+     
 
-            <div className="Detalhes">
-                <h5>Detalhes revelantes sobre as necessidades do usuario</h5>
-            </div>
-            
 
-        </div>
-     </div>
+
+        
+
+
 
     </div>
   )

@@ -1,0 +1,78 @@
+
+.conteiner-senha{
+    background-color: #597B78;
+    margin-top: 10.3%;
+    width: 27%;
+    height: 27vmax;
+    margin-left: 36%;
+    border: 2px solid #bc43c7;
+    border-radius: 25px;
+}
+.modificar-s{
+    font-size: 400%;
+    border: 2px solid #271991;
+    text-align: center;
+}
+.input{
+    margin-left: 11%;
+    width: 70%;
+    border: 2px solid #900c20;
+}
+label{
+    /* margin-top: -5%;
+    margin-left: 11%;
+    border: 2px solid #d5cf10; */
+}
+
+  .container {
+    border: 2px solid #d5cf10;
+    --color: #d1ded5;
+    --size: 20px;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    font-size: var(--size);
+    user-select: none;
+    fill: var(--color);
+  }
+
+  .container .eye {
+    /* position: absolute; */
+    animation: keyframes-fill .5s;
+  }
+
+  .container .eye-slash {
+    position: absolute;
+    animation: keyframes-fill .5s;
+    display: none;
+  }
+
+  /* ------ On check event ------ */
+  .container input:checked ~ .eye {
+    display: none;
+  }
+
+  .container input:checked ~ .eye-slash {
+    display: block;
+  }
+
+  /* ------ Hide the default checkbox ------ */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* ------ Animation ------ */
+  @keyframes keyframes-fill {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+
+    50% {
+      transform: scale(1.2);
+    }
+  };

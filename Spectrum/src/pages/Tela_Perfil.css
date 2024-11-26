@@ -1,112 +1,184 @@
-root{
-    --cor-1: #0e3b43;
-    --cor-2: #214b51;
-    --cor-3: #597b78;
-    --cor-4: #a3bbad;
-    --cor-5: #eaf4f4;
+.body-perfil {
+    background-color: #214B51;
+
+
 }
-  
-.body-perfil{
-    background-color: #214b51;
-    width: 100vw;
-    height: 100vh;
-    margin: 0; 
-    overflow: hidden;
-    font-family: Arial, sans-serif;
-}
-.abacaxi{
-    width: 37%;
-    display: flex;
-    text-align: left;
-    justify-content: flex-start;
-    margin-top: 3%;
-    margin-left: 2%;
-    height: 68%;
-}
-.text-container{
+
+
+.Verde {
+    /* border:  5px solid  rgb(11, 182, 22); */
     width: 100%;
+    height: 8%;
+}
+
+.Azul {
+    /* border:  5px solid  rgb(11, 96, 182); */
+    width: 100%;
+    height: 35%;
+}
+
+.Ciano {
+    /* border:  5px solid  rgb(13, 231, 209); */
+    width: 19.8%;
+    height: 100%;
+    margin-left: 80.2%;
+    margin-top: -17%;
+}
+
+.Cinza {
+    background-color: #1f5962d3;
+    /* border:  5px solid  rgb(96, 101, 101); */
+    width: 60.0%;
+    height: 100%;
+    margin-left: 20%;
+    margin-top: -19%;
+   
+}
+
+.foto-p {
+    width: 19%;
+    height: 66%;
+    border-radius: 100%;
+    margin-top: 0%;
+    margin-left: 20%;
+   
     
 }
-.image-container {
-    width: 30%; /* Tamanho da imagem */
-    height: 32%; /* Tamanho da imagem */
-    border-radius: 50%; /* Transforma a imagem em círculo */
-    overflow: hidden; /* Esconde as partes da imagem fora do círculo */
-    margin-right: 20px; /* Espaçamento entre a imagem e o texto */
-    margin-top: 2%;
-}
 
-.image-container img {
-    width: 100%; /* Para garantir que a imagem ocupe todo o espaço dentro do círculo */
-    height: auto;
-    display: block;
-    align-items: left;
-}
-
-.text-container {
-    flex: 1; /* Ocupa todo o espaço restante */
-    margin-right: 21%;
-    font-size: 100%;
-}
-
-.text-container h2 {
-    margin-top: 20%;
-    color: #eaf4f4;
-    font-size: 56px;
-    width: 200%;
-    margin-left: 5%;
+.nome {
     display: flex;
+    justify-content: space-around;
+    margin-left: 47%;
+    margin-top: -14%;
+    font-size: 390%;
 }
 
-.text-container h4 {
-    margin-top: 7%;
-    color: #eaf4f4;
-    font-size: 30px;
-    width: 200%;
-    margin-left: 6%;
+.idade {
+    margin-left: 47%;
+    margin-top: -1%;
+    font-size: 150%;
 }
 
-.text-container p {
-    color: #eaf4f4;
-    font-size: 20px;
-    margin-top: 5%;
-    margin-left: 6%;
-}
-
-.edit-user{
-    width: 8%;
-    height: 3%;
+.genero {
+    margin-left: 47%;
     margin-top: 1%;
-    margin-left: 2%;
+    font-size: 150%;
+}
+
+.Amarelo {
+    background-color: #1f5962d3;
+    /* border: 5px solid #d1ea2ed3 ; */
+    width: 29%;
+    height: 39%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
+    margin-top: -39.02vmin;
+    margin-left: 20%;
+
 }
 
-.Descrição{
-    margin-top: 7%;
-    color: #eaf4f4;
-    background-color: #0E3B43;
-    padding: 30px;
-    width: 155%;
-    height: 23%;
-    border-radius: 20px;
-    font-size: 150%;
-    margin-left: 6%;
+.info-contato {
+    font-size: 160%;
+    margin-top: 4%;
+    width: 150%;
+    height: 10%;
+    margin-left: 0%;
+    
+    /* border: 5px solid #fcfcfbd3 ; */
 }
 
-.Descrição p{
-    margin-top: 1%;
-    font-size: 15px;
+.telefone {
+    margin-top: 15%;
+    margin-left: -20%;
+    width: 190%;
+    height: 9%;
+    border: 5px solid #ffffffd3 ;
 }
 
-.Detalhes{
-    margin-top: 3%;
-    color: #eaf4f4;
-    background-color: #0E3B43;
-    padding: 30px;
-    width: 155%;
-    height: 23%;
-    border-radius: 20px;
-    font-size: 150%;
-    margin-left: 6%;
+.gmail {
+  
+    margin-top: 30%;
+    margin-left: -1%;
+    width: 190%;
+    height: 9%;
+    border: 5px solid #fffffed3 ; 
+}
+
+.butt-edi{
+    width: 19%;
+    height: 10%;
+    border: 5px solid blueviolet;
+    margin-top: 45%;
+  
+}
+
+.butt-dele{
+    width: 19%;
+    height: 10%;
+    border: 5px solid blueviolet;
+    margin-top: 45%;
+
+}
+.Laranja {
+    background-color: #1f5962d3;
+    width: 29%;
+    height: 39.1%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -19.4%;
+    margin-left: 51%;
+    /* border: 5px solid #b9871ad3 ; */
+}
+
+.Vermelho {
+    /* border:  5px solid  rgb(223, 38, 22); */
+    width: 19.8%;
+    height: 100%;
+}
+
+.Rosa {
+    /* border:  5px solid  rgb(171, 30, 199); */
+    width: 20%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0%;
+}
+
+.Roxo {
+    /* border:  5px solid  rgb(74, 12, 208); */
+    width: 20%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -19.85%;
+    margin-left: 80%;
+}
+
+.Branco {
+    /* border:  5px solid  rgb(249, 249, 249); */
+    width: 100%;
+    height: 4.9%;
+    display: flex;
+    margin-top: -0.1%;
+    justify-content: space-around;
+}
+
+.marrom {
+    /* border: 5px solid rgb(249, 249, 249); */
+    height: 65%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: -112%;
+    margin-top: 15%;
+    font-size: 120%;
+}
+
+.detalhes {
+    /* border: 5px solid rgb(249, 249, 249); */
+    height: 10%;
+    margin-left: -8.5%;
+    font-size: 145%;
+
 }
