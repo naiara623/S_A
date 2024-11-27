@@ -71,7 +71,6 @@ const router = createBrowserRouter([
     {path: "/perfildeprofissional", element: <Tela_Profissional />},
     {path: "/teladeinformacoes", element: <Tela_Informacoes />},
     {path: "/telaprincipal", element: <Tela_Principal />},
-    {path: "/esqueciasenha", element: <Esqueci_A_Senha />},
     {path: "/ediatarperfil", element: <Editar_Perfil />},
 
     {path: "/estrategia1", element: <Estrategia1/>},
