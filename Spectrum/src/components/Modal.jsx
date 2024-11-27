@@ -16,7 +16,7 @@ function Modal({ isOpen, onClose }) {
     <Link className='Link' to={"/estrategia1"}>Estrategias</Link>
     <br /><br />
     <img className='foto' src="icone-agendamento.png" alt="Agendamento" />
-    <Link className='Link' to={"#"}>Agendamentos</Link>
+    <Link className='Link' to={"/calendario"}>Agendamentos</Link>
     <br /><br />
     <img className='foto' src="icone-configuração.png" alt="Configuração" />
     <Link className='Link' to={"#"}>Configurações</Link>

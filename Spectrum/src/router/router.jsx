@@ -55,6 +55,7 @@ import RotinaEPrevisibilidade9 from "../estrategias/subEstrategias4/RotinaEPrevi
 import TecnicasDeRelaxamento6 from "../estrategias/subEstrategias4/TecnicasDeRelaxamento6"
 import TempoLimitado8 from "../estrategias/subEstrategias4/TempoLimitado8"
 import Editar_Perfil from "../pages/Editar_Perfil";
+import Calendario from "../pages/Calendario";
 
 
 
@@ -72,6 +73,7 @@ const router = createBrowserRouter([
     {path: "/teladeinformacoes", element: <Tela_Informacoes />},
     {path: "/telaprincipal", element: <Tela_Principal />},
     {path: "/ediatarperfil", element: <Editar_Perfil />},
+    {path: "/calendario", element: <Calendario/>},
 
     {path: "/estrategia1", element: <Estrategia1/>},
     {path: "/estrategia2", element: <Estrategia2/>},
