@@ -282,4 +282,10 @@
     font-size: 190%;
     margin-left: -77%;
 }
-
+.scrollable-colunas {
+    max-height: 300px;  /* Define a altura máxima para a área de rolagem */
+    overflow-y: auto;   /* Permite rolagem vertical */
+    padding-right: 10px; /* Espaço extra para a barra de rolagem */
+    color: #EAF4F4;
+    margin-left: 10%;
+  }

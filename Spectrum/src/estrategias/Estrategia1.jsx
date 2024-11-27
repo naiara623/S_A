@@ -5,9 +5,8 @@ import './Estrategia1.css'
 
 function Estrategia1() {
   return (
-<div >
-{<Navbar />}
 <div class="tela">
+  {<Navbar />}
 
 <div class="barra-estrategias">
       
@@ -19,8 +18,15 @@ function Estrategia1() {
  <button className='estrategia2' ><h4 className="s2"><Link to={'/estrategia2'}>Mudança na Rotina</Link></h4></button><br /><br />
  <button className='estrategia3' ><h4 className="s3"><Link to={'/estrategia3'}>Rotas diferentes do previsto</Link></h4></button><br /><br />
  <button className='estrategia4' ><h4 className="s4"><Link to={'/estrategia4'}>Muitas pessoas em um ambiente</Link></h4></button><br /><br />
+<div className='todas-colunas'>
+
+ <button className='estrategias1' >Sons Altos</button><br /><br />
+ <button className='estrategias2' >Mudança na Rotina</button><br /><br />
+ <button className='estrategias3' >Rotas diferentes do previsto</button><br /><br />
+ <button className='estrategias4' >Muitas pessoas em um ambiente</button><br /><br />
 </div>
 </div>
+<div className='scrollable-colunas'></div>
 <div className='text-estrategias'>
 
 <h2  className='text1'>Sons Altos</h2>
@@ -43,12 +49,11 @@ function Estrategia1() {
 <div className='ppp1'>
 <p>Cada pessoa é única, então pode ser necessário experimentar diferentes estratégias para encontrar o que funciona melhor em cada caso.</p>
 </div>
-
+</div>
 </div>
 
 
 
-</div>
 </div>
 
   )
