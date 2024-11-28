@@ -1,4 +1,4 @@
-.tela {
+.tela2 {
     font-family: "Roboto", sans-serif;
     /* margin: -2vh; */
     padding: 0;
@@ -6,7 +6,7 @@
     display: flex;
 }
 
-.cor-estrategias {
+.cor-estrategias2 {
     background-color: #597b78bf;
     width: 35%;
     height: 87.9vh;
@@ -15,7 +15,7 @@
     /* border: 2px solid red; */
 }
 
-.coluna-estrategia {
+.coluna-estrategia2 {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -23,13 +23,13 @@
 
 }
 
-.estrategias-para {
+.estrategias-para2 {
     color: #EAF4F4;
     font-size: 165%;
     margin-left: 5%;
 }
 
-.estrategia1 {
+.estrategia5 {
     background-color: #1e5159;
     color: #EAF4F4;
     margin-top: 2%;
@@ -38,7 +38,7 @@
     margin-left: 5.1%;
     border-radius: 10px;
 }
-.estrategia2 {
+.estrategia6 {
     background-color: #1e5159;
     color: #EAF4F4;
     margin-top: -2%;
@@ -47,7 +47,7 @@
     margin-left: 5.1%;
     border-radius: 10px;
 }
-.estrategia3 {
+.estrategia7 {
     background-color: #1e5159;
     color: #EAF4F4;
     margin-top: -2%;
@@ -56,7 +56,7 @@
     margin-left: 5.1%;
     border-radius: 10px;
 }
-.estrategia4 {
+.estrategia8 {
     background-color: #1e5159;
     color: #EAF4F4;
     margin-top: -2%;
@@ -66,42 +66,19 @@
     border-radius: 10px;
 }
 
-.s1{
-    font-size: 170%;
-    margin-top: 5%;
-    margin-left: -45%;
-}
-
-.s2{
-    font-size: 170%;
-    margin-top: 5%;
-    margin-left: -45%;
-}
-
-.s3{
-    font-size: 170%;
-    margin-top: 5%;
-    margin-left: -20%;
-}
-
-.s4{
-    font-size: 170%;
-    margin-top: 5%;
-    margin-left: -10%;
-}
-.text{
+.text-tela2{
     margin-top: -40%;
 }
-.text1{
+.text1-tela2{
     margin-top: -47%;
     font-size: 250%;
     margin-left: 2%;
 }
-.text2{
+.text2-tela2{
     margin-top: -2%;
     margin-left: 2%;
 }
-.estra{
+.estra-tela2{
     width: 100%;
     flex-direction: column;
     margin-left: 2%;

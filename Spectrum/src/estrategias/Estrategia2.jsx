@@ -7,27 +7,27 @@ function Estrategia2() {
   return (
     <div>
     {<Navbar />}
-    <div class="tela">
+    <div class="tela2">
 <div class="barra-estrategias">
     
- <div className='cor-estrategias'>
- <div className='coluna-estrategia'>
- <h3 className='estrategias-para'>Estratégias para:</h3>
+ <div className='cor-estrategias2'>
+ <div className='coluna-estrategia2'>
+ <h3 className='estrategias-para2'>Estratégias para:</h3>
  
- <button className='estrategia1' ><h4 className="s1"><Link to={'/estrategia1'}>Sons Altos</Link></h4></button>
- <button className='estrategia1' ><h4 className="s2"><Link to={'/estrategia2'}>Mudança na Rotina</Link></h4></button>
- <button className='estrategia1' ><h4 className="s3"><Link to={'/estrategia3'}>Rotas diferentes do previsto</Link></h4></button>
- <button className='estrategia1' ><h4 className="s4"><Link to={'/estrategia4'}>Muitas pessoas em um ambiente</Link></h4></button>
+ <button className='estrategia5' ><h4 className="s1"><Link to={'/estrategia1'}>Sons Altos</Link></h4></button>
+ <button className='estrategia6' ><h4 className="s2"><Link to={'/estrategia2'}>Mudança na Rotina</Link></h4></button>
+ <button className='estrategia7' ><h4 className="s3"><Link to={'/estrategia3'}>Rotas diferentes do previsto</Link></h4></button>
+ <button className='estrategia8' ><h4 className="s4"><Link to={'/estrategia4'}>Muitas pessoas em um ambiente</Link></h4></button>
  </div>
  </div>
 
-<div className="text">
-  <h2 className='text1'>Mudanças na Rotina</h2>
- <p className='text2'>Lidar com mudanças de rotina pode ser desafiador para pessoas autistas, mas existem diversas estratégias que podem ajudar:</p>
+<div className="text-tela2">
+  <h2 className='text1-tela2'>Mudanças na Rotina</h2>
+ <p className='text2-tela2'>Lidar com mudanças de rotina pode ser desafiador para pessoas autistas, mas existem diversas estratégias que podem ajudar:</p>
 </div>
  
  
- <div class="estra"> 
+ <div class="estra-tela2"> 
  <button className='Preparacao'><h4 className="p">Preparação antecipada</h4></button><br/>
  <button className='vizualizar'><h4 className="p2">Visualização e roteiros</h4></button><br/>
  <button className='manter'><h4 className="p3">Manter elementos constantes</h4></button><br/>
