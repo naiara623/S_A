@@ -19,6 +19,10 @@ function Estrategia1() {
               <Link className='corM' to={'/estrategia2'}><button className='estrategia2' >Mudança na Rotina</button></Link><br /><br />
               <Link className='corR' to={'/estrategia3'}><button className='estrategia3' >Rotas diferentes do previsto</button></Link><br /><br />
               <Link className='corP' to={'/estrategia4'}><button className='estrategia4' >Muitas pessoas em um ambiente</button></Link><br /><br />
+            <Link><button className='estrategia1' >Sons Altos</button></Link><br /><br />
+              <Link to={'/estrategia2'}><button className='estrategia2' >Mudança na Rotina</button></Link><br /><br />
+             <Link to={'/estrategia3'}><button className='estrategia3' >Rotas diferentes do previsto</button></Link><br /><br />
+             <Link to={'/estrategia4'}><button className='estrategia4' >Muitas pessoas em um ambiente</button></Link><br /><br />
               <div className='ppp1'>
                 <p>Cada pessoa é única, então pode ser necessário experimentar diferentes estratégias para encontrar o que funciona melhor em cada caso.</p>
               </div>
@@ -33,13 +37,13 @@ function Estrategia1() {
           </div>
 
           <div className='colunas'>
-            <button className='protetores'><h4 className="pe1">Protetores auriculares</h4></button><br />
-            <button className='Espa-Tranq'><h4 className="p2e1">Espaços tranquilos</h4></button><br />
-            <button className='Planejamento'><h4 className="p3e1">Planejamento</h4></button><br />
-            <button className='Comunicaçãos'><h4 className="p4e1">Comunicação</h4></button><br />
-            <button className='tec-relax'><h4 className="p5e1">Técnicas de relaxamento</h4></button><br />
-            <button className='Mús-Rui-Branco'><h4 className="p6e1">Técnicas de relaxamento</h4></button><br />
-            <button className='Treinamento-Dessens'><h4 className="p7e1">Treinamento de dessensibilização</h4></button><br />
+            <button className='protetores'>Protetores auriculares</button><br />
+            <button className='Espa-Tranq'> Espaços tranquilos</button><br />
+            <button className='Planejamento'> Planejamento</button><br />
+            <button className='Comunicaçãos'> Comunicação</button><br />
+            <button className='tec-relax'> Técnicas de relaxamento</button><br />
+            <button className='Mús-Rui-Branco'> Técnicas de relaxamento</button><br />
+            <button className='Treinamento-Dessens'> Treinamento de dessensibilização</button><br />
 
           </div>
 
