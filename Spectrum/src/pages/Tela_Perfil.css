@@ -1,28 +1,29 @@
 .body-perfil {
     background-color: #214B51;
 
-
 }
 
 
 .Verde {
-    /* border:  5px solid  rgb(11, 182, 22); */
-    width: 100%;
-    height: 8%;
+    border:  5px solid  rgb(11, 182, 22);
+    width: 99.5%;
+    height: %;
+
 }
 
 .Azul {
-    /* border:  5px solid  rgb(11, 96, 182); */
-    width: 100%;
-    height: 35%;
+    border:  5px solid  rgb(11, 96, 182);
+    width: 99.5%;
+    height: 20%;
+    margin-top: 6%;
 }
 
 .Ciano {
-    /* border:  5px solid  rgb(13, 231, 209); */
+    border:  5px solid  rgb(13, 231, 209);
     width: 19.8%;
-    height: 100%;
+    height: 150%;
     margin-left: 80.2%;
-    margin-top: -17%;
+    margin-top: 20%;
 }
 
 .Cinza {
@@ -61,13 +62,13 @@
     font-size: 150%;
 }
 
-.genero {
+/* .genero {
     margin-left: 35.5%;
     margin-top: 1%;
     font-size: 150%;
-}
+} */
 
-.Amarelo {
+/* .Amarelo {
     background-color: #1f5962d3;
     width: 29%;
     height: 39%;
@@ -76,38 +77,30 @@
     margin-top: -39.02vmin;
     margin-left: 20%;
 
-}
+} */
 
-.info{
+/* .info{
     margin-left: -57%;
     margin-top: 1%;
     display: flex;
     justify-content: space-around;
-}
+} */
 
-.info-contato {
+/* .info-contato {
     display: flex;
     justify-content: space-around;
     font-size: 150%;
     width: 26vw;
     height: 7%;
-    /* border: 5px solid blue ; */
+    border: 5px solid blue ;
     margin-top: 2%;
     margin-left: 15%;
-    /* font-size: 160%;
-    margin-left: 5%;
-    margin-top: 4%;
-    height: 8%;
-    max-width: none;
-    border: 5px solid blue ;
-    width: 200vw; */
-
-}
-.contato{
+} */
+/* .contato{
     display: flex;
     flex-direction: column;
     margin-top: 12%;
-    /* border: 5px solid rgb(184, 46, 138) ; */
+    border: 5px solid rgb(184, 46, 138) ;
     width: 40%;
     height: 20%;
     margin-left: -109%;
@@ -117,9 +110,9 @@
 
 .gmail {
     margin-top: 10%;
-}
+} */
 
-.butt-edi{
+/* .butt-edi{
     height: 6vh;
     width: 7vw;
     border: 5px solid rgb(16, 32, 176);
@@ -144,7 +137,7 @@
     text-transform: uppercase;
     color: var(--color);
     z-index: 1;
-    /* width: 15%; */
+
    }
  
    .butt-edi::before, .butt-edi::after {
@@ -181,11 +174,10 @@
  
    .butt-edi:active {
     filter: brightness(.8);
-   }
-
+   } */
+/* 
 .butt-dele{
     height: 6vh;
-    /* width: 10vw; */
     border: 5px solid blueviolet;
     margin-top: 45%;
     margin-left: 12%;
@@ -208,7 +200,7 @@
     text-transform: uppercase;
     color: var(--color);
     z-index: 1;
-    /* width: 15%; */
+   
    }
  
    .butt-dele::before, .butt-dele::after {
@@ -245,9 +237,9 @@
  
    .butt-dele:active {
     filter: brightness(.8);
-   }
+   } */
 
-.Laranja {
+/* .Laranja {
     background-color: #1f5962d3;
     width: 29%;
     height: 39.1%;
@@ -255,41 +247,43 @@
     justify-content: space-around;
     margin-top: -19.4%;
     margin-left: 51%;
-}
-.detalhes {
-    /* border: 5px solid rgb(249, 249, 249); */
+} */
+/* .detalhes {
+    border: 5px solid rgb(249, 249, 249);
     height: 10%;
     margin-left: -22%;
     font-size: 145%;
+    margin-top: 30px;
 
-}
-.marrom {
-    /* border: 5px solid rgb(249, 249, 249); */
+} */
+/* .marrom {
+    border: 5px solid rgb(249, 249, 249);
     height: 65%;
     width: 80%;
     display: flex;
     flex-direction: column;
     margin-left: -155%;
-    margin-top: 15%;
+    margin-top: 110px;
     font-size: 120%;
-}
-.Vermelho {
-    /* border:  5px solid  rgb(223, 38, 22); */
+} */
+/* .Vermelho {
+    border:  5px solid  rgb(223, 38, 22);
     width: 19.8%;
     height: 100%;
-}
+} */
 
-.Rosa {
-    /* border:  5px solid  rgb(171, 30, 199); */
+/* .Rosa {
+    border:  5px solid  rgb(171, 30, 199);
     width: 20%;
     height: 40%;
     display: flex;
     justify-content: space-around;
     margin-top: 0%;
-}
-
+    
+} */
+/* 
 .Roxo {
-    /* border:  5px solid  rgb(74, 12, 208); */
+    border:  5px solid  rgb(74, 12, 208);
     width: 20%;
     height: 40%;
     display: flex;
@@ -299,7 +293,7 @@
 }
 
 .Branco {
-    /* border:  5px solid  rgb(249, 249, 249); */
+    border:  5px solid  rgb(249, 249, 249);
     width: 100%;
     height: 4.9%;
     display: flex;
@@ -307,7 +301,35 @@
     justify-content: space-around;
 }
 
-.label1{
+
+
+.l2{
+
+    margin-top: -12px;
     
 }
+.l3{
+    margin-top: -12px;
+    
+}
+.l4{
+    margin-top: -12px;
+    
+}
+.l5{
+
+    margin-top: -12px;
+}
+.l6{
+    margin-top: -12px;
+}
+
+.l7{
+    margin-top: -12px;
+     */
+}
+
+
+
+
 
