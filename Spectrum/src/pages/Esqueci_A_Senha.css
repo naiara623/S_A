@@ -1,5 +1,4 @@
-
-.conteiner-senha{
+.conteiner-senha {
   background-color: #597B78;
   margin-top: 10.3%;
   width: 27%;
@@ -8,87 +7,90 @@
   border: 2px solid #bc43c7;
   border-radius: 25px;
 }
-.modificar-s{
+
+.modificar-s {
   font-size: 400%;
   border: 2px solid #271991;
   text-align: center;
 }
-.input{
+
+.input {
   margin-left: 11%;
   width: 77%;
   border: 2px solid #900c20;
 }
 
-.hu{
-width: 5%;
-margin-left: 44vh;
-margin-top: -3.5vh;
+.hu {
+  width: 5%;
+  margin-left: 44vh;
+  margin-top: -3.5vh;
 }
 
-label{
-    margin-top: -5%;
-    margin-left: 11%;
-    border: 2px solid #d5cf10;
-margin-left: 60px;
-font-weight: bold;
+label {
+  margin-top: -5%;
+  margin-left: 11%;
+  margin-left: 60px;
+  font-weight: bold;
 
 
 
 }
 
 .b {
---color: #EAF4F4;
-padding: 0.8em 1.7em;
-background-color: transparent;
-border-radius: .3em;
-position: relative;
-overflow: hidden;
-cursor: pointer;
-transition: .5s;
-font-weight: 400;
-font-size: 17px;
-border: 1px solid;
-font-family: inherit;
-text-transform: uppercase;
-color: var(--color);
-z-index: 1;
-width: 20vh;
-margin-top: 4vh;
-margin-left: 16vh;
+  --color: #EAF4F4;
+  padding: 0.8em 1.7em;
+  background-color: transparent;
+  border-radius: .3em;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: .5s;
+  font-weight: 400;
+  font-size: 17px;
+  border: 1px solid;
+  font-family: inherit;
+  text-transform: uppercase;
+  color: var(--color);
+  z-index: 1;
+  width: 20vh;
+  margin-top: 4vh;
+  margin-left: 16vh;
 }
 
-.b::before, .b::after {
-content: '';
-display: block;
-width: 50px;
-height: 50px;
-transform: translate(-50%, -50%);
-position: absolute;
-border-radius: 50%;
-z-index: -1;
-background-color: var(--color);
-transition: 1s ease;
+.b::before,
+.b::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  background-color: var(--color);
+  transition: 1s ease;
 }
 
 .b::before {
-top: -1em;
-left: -1em;
+  top: -1em;
+  left: -1em;
 }
 
 .b::after {
-left: calc(100% + 1em);
-top: calc(100% + 1em);
+  left: calc(100% + 1em);
+  top: calc(100% + 1em);
 }
 
-.b:hover::before, .b:hover::after {
-height: 410px;
-width: 410px;
+.b:hover::before,
+.b:hover::after {
+  height: 410px;
+  width: 410px;
 }
 
 .b:hover {
-color: rgb(10, 25, 30);
+  color: rgb(10, 25, 30);
 }
 
 .b:active {
-filter: brightness(.8);
+  filter: brightness(.8);
 }

@@ -15,16 +15,16 @@ function Estrategia1() {
             <h3 className='estrategias-para'>Estratégias para:</h3>
 
             <div className='todas-colunas'>
-              <button className='estrategia1'  ><h4 className="s1"><Link>Sons Altos</Link></h4></button><br /><br />
-              <button className='estrategia2' ><h4 className="s2"><Link to={'/estrategia2'}>Mudança na Rotina</Link></h4></button><br /><br />
-              <button className='estrategia3' ><h4 className="s3"><Link to={'/estrategia3'}>Rotas diferentes do previsto</Link></h4></button><br /><br />
-              <button className='estrategia4' ><h4 className="s4"><Link to={'/estrategia4'}>Muitas pessoas em um ambiente</Link></h4></button><br /><br />
+              <Link className='corS'><button className='estrategia1'  >Sons Altos</button></Link><br /><br />
+              <Link className='corM' to={'/estrategia2'}><button className='estrategia2' >Mudança na Rotina</button></Link><br /><br />
+              <Link className='corR' to={'/estrategia3'}><button className='estrategia3' >Rotas diferentes do previsto</button></Link><br /><br />
+              <Link className='corP' to={'/estrategia4'}><button className='estrategia4' >Muitas pessoas em um ambiente</button></Link><br /><br />
               <div className='ppp1'>
                 <p>Cada pessoa é única, então pode ser necessário experimentar diferentes estratégias para encontrar o que funciona melhor em cada caso.</p>
               </div>
             </div>
           </div>
-          <div className='scrollable-colunas'></div>
+          
           <div className='text-estrategias1'>
 
             <h2 className='text1'>Sons Altos</h2>
