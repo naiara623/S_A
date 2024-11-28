@@ -14,10 +14,10 @@ function Estrategia2() {
  <div className='coluna-estrategia2'>
  <h3 className='estrategias-para2'>Estratégias para:</h3>
  
- <button className='estrategia5' ><h4 className="s1"><Link to={'/estrategia1'}>Sons Altos</Link></h4></button>
- <button className='estrategia6' ><h4 className="s2"><Link to={'/estrategia2'}>Mudança na Rotina</Link></h4></button>
- <button className='estrategia7' ><h4 className="s3"><Link to={'/estrategia3'}>Rotas diferentes do previsto</Link></h4></button>
- <button className='estrategia8' ><h4 className="s4"><Link to={'/estrategia4'}>Muitas pessoas em um ambiente</Link></h4></button>
+ <button className='estrategia5' ><Link to={'/estrategia1'} className="s1">Sons Altos</Link></button>
+ <button className='estrategia6' ><Link to={'/estrategia2'} className="s2">Mudança na Rotina</Link></button>
+ <button className='estrategia7' ><Link to={'/estrategia3'} className="s3">Rotas diferentes do previsto</Link></button>
+ <button className='estrategia8' ><Link to={'/estrategia4'} className="s4">Muitas pessoas em um ambiente</Link></button>
  </div>
  </div>
 

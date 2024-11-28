@@ -9,7 +9,7 @@
     background-color: #597b78bf;
     width: 35%;
     height: 87.6vh;
-    margin-left: 64.8%;
+    margin-left: 64.99%;
     border-radius: 5px;
     /* border: 2px solid red; */
 }
@@ -37,39 +37,47 @@
     margin-left: 5.1%;
     border-color: #1e515900;
     border-radius: 10px;
+    font-size: 150%;
+    text-align: start;
 }
 .estrategia2 {
     background-color: #1e5159;
     color: #EAF4F4;
-    margin-top: -2%;
+    margin-top: 3%;
     width: 100%;
     height: 7.5vh;
     margin-left: 5.1%;
     border-color: #1e515900;
     border-radius: 10px;
+    font-size: 150%;
+    text-align: start;
 }
 .estrategia3 {
     background-color: #1e5159;
     color: #EAF4F4;
-    margin-top: -2%;
+    margin-top: 3%;
     width: 100%;
     height: 7.5vh;
     margin-left: 5.1%;
     border-color: #1e515900;
     border-radius: 10px;
+    font-size: 150%;
+    text-align: start;
 }
 .estrategia4 {
     background-color: #1e5159;
     color: #EAF4F4;
-    margin-top: -2%;
+    margin-top: 3%;
     width: 100%;
     height: 7.5vh;
     margin-left: 5.1%;
     border-color: #1e515900;
     border-radius: 10px;
+    font-size: 150%;
+    text-align: start;
 }
 .text-estrategias1{
-    margin-top: 4.5%;
+    margin-top: 2%;
 }
 .text1{
     margin-top: -93%;
@@ -99,7 +107,7 @@
 {
     background-color: #597B78;
     color: #EAF4F4;
-    margin-top: 1.7%;
+    margin-top: 1.5%;
     width: 60%;
     height: 7.5vh;
     border-color: #1e515900;
@@ -110,7 +118,7 @@
 
     background-color: #597B78;
     color: #EAF4F4;
-    margin-top: 1.7%;
+    margin-top: 1.5%;
     width: 60%;
     height: 7.5vh;
     border-color: #1e515900;
@@ -120,7 +128,7 @@
 .Comunicaçãos{
     background-color: #597B78;
     color: #EAF4F4;
-    margin-top: 1.7%;
+    margin-top: 1.5%;
     width: 60%;
     height: 7.5vh;
     border-color: #1e515900;
@@ -131,7 +139,7 @@
 .tec-relax{
     background-color: #597B78;
     color: #EAF4F4;
-    margin-top: 1.7%;
+    margin-top: 1.5%;
     width: 60%;
     height: 7.5vh;
     border-color: #1e515900;
@@ -142,7 +150,7 @@
 .Mús-Rui-Branco{
     background-color: #597B78;
     color: #EAF4F4;
-    margin-top: 1.7%;
+    margin-top: 1.5%;
     width: 60%;
     height: 7.5vh;
     border-color: #1e515900;
@@ -153,7 +161,7 @@
 .Treinamento-Dessens{
     background-color: #597B78;
     color: #EAF4F4;
-    margin-top: 1.7%;
+    margin-top: 1.5%;
     width: 60%;
     height: 7.5vh;
     border-color: #1e515900;
@@ -162,7 +170,7 @@
 
 .ppp1{
     margin-left: -3%;
-
+    margin-top:5%;
 }
 .pe1{
     margin-top: 1.5%;
@@ -204,4 +212,16 @@
     margin-top: 1.5%;
     font-size: 190%;
     margin-left: -59.5%;
+}
+.corS{
+    color: #EAF4F4;
+}
+.corM{
+    color: #EAF4F4;
+}
+.corR{
+    color: #EAF4F4;
+}
+.corP{
+    color: #EAF4F4;
 }
