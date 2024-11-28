@@ -36,7 +36,6 @@
     width: 100%;
     height: 7.5vh;
     margin-left: 5.1%;
-    border-color: #1e515900;
     border-radius: 10px;
 }
 .estrategia6 {
@@ -46,7 +45,6 @@
     width: 100%;
     height: 7.5vh;
     margin-left: 5.1%;
-    border-color: #1e515900;
     border-radius: 10px;
 }
 .estrategia7 {
@@ -56,7 +54,6 @@
     width: 100%;
     height: 7.5vh;
     margin-left: 5.1%;
-    border-color: #1e515900;
     border-radius: 10px;
 }
 .estrategia8 {
@@ -66,7 +63,6 @@
     width: 100%;
     height: 7.5vh;
     margin-left: 5.1%;
-    border-color: #1e515900;
     border-radius: 10px;
 }
 
@@ -100,7 +96,6 @@
     margin-top: 2%;
     width: 60%;
     height: 7.5vh;
-    border-color: #1e515900;
     border-radius: 10px;
 }
 
@@ -110,7 +105,6 @@
     margin-top: 2%;
     width: 60%;
     height: 7.5vh;
-    border-color: #1e515900;
     border-radius: 10px;
 }
 
@@ -120,7 +114,6 @@
     margin-top: 2%;
     width: 60%;
     height: 7.5vh;
-    border-color: #1e515900;
     border-radius: 10px;
 }
 
@@ -130,7 +123,6 @@
     margin-top: 2%;
     width: 60%;
     height: 7.5vh;
-    border-color: #1e515900;
     border-radius: 10px;
 }
 
@@ -140,7 +132,6 @@
     margin-top: 2%;
     width: 60%;
     height: 7.5vh;
-    border-color: #1e515900;
     border-radius: 10px;
 }
 
@@ -150,7 +141,6 @@
     margin-top: 2%;
     width: 60%;
     height: 7.5vh;
-    border-color: #1e515900;
     border-radius: 10px;
 }
 
@@ -160,7 +150,6 @@
     margin-top: 2%;
     width: 60%;
     height: 7.5vh;
-    border-color: #1e515900;
     border-radius: 10px;
 }
 
@@ -170,7 +159,6 @@
     margin-top: 2%;
     width: 60%;
     height: 7.5vh;
-    border-color: #1e515900;
     border-radius: 10px;
 }
 
@@ -180,7 +168,6 @@
     margin-top: 2%;
     width: 60%;
     height: 7.5vh;
-    border-color: #1e515900;
     border-radius: 10px;
 }
 
@@ -190,7 +177,6 @@
     margin-top: 2%;
     width: 60%;
     height: 7.5vh;
-    border-color: #1e515900;
     border-radius: 10px;
 }
 
@@ -259,10 +245,5 @@
     font-size: 190%;
     margin-left: -77%;
 }
-.scrollable-colunas {
-    max-height: 300px;  /* Define a altura máxima para a área de rolagem */
-    overflow-y: auto;   /* Permite rolagem vertical */
-    padding-right: 10px; /* Espaço extra para a barra de rolagem */
-    color: #EAF4F4;
-    margin-left: 10%;
-  }
+
+  
