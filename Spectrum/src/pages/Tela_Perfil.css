@@ -4,37 +4,20 @@
 }
 
 
-.Verde {
-    border:  5px solid  rgb(11, 182, 22);
-<<<<<<< HEAD
-    width: 99.5%;
-    height: %;
-
-=======
-    width: 100%;
-    height: 8%;
->>>>>>> c6315085b4d4959b0db990509d273482e7b9edd3
+.Verde{
+    border:  5px solid  rgb(11, 179, 33);
+    width: 100wh;
+    height: 72px;
 }
 
-.Azul {
+
+.Azul{
     border:  5px solid  rgb(11, 96, 182);
-<<<<<<< HEAD
-    width: 99.5%;
-    height: 20%;
-    margin-top: 6%;
-=======
-    width: 100%;
-    height: 35%;
->>>>>>> c6315085b4d4959b0db990509d273482e7b9edd3
+    width: 100wh;
+    height: 400px;
 }
 
-.Ciano {
-    border:  5px solid  rgb(13, 231, 209);
-    width: 19.8%;
-    height: 150%;
-    margin-left: 80.2%;
-    margin-top: 20%;
-}
+
 
 .Cinza {
     background-color: #1f5962d3;
@@ -257,26 +240,16 @@
     justify-content: space-around;
     margin-top: -19.4%;
     margin-left: 51%;
-<<<<<<< HEAD
 } */
 /* .detalhes {
-=======
-}
-.detalhes {
->>>>>>> c6315085b4d4959b0db990509d273482e7b9edd3
     border: 5px solid rgb(249, 249, 249);
     height: 10%;
     margin-left: -22%;
     font-size: 145%;
     margin-top: 30px;
 
-<<<<<<< HEAD
 } */
 /* .marrom {
-=======
-}
-.marrom {
->>>>>>> c6315085b4d4959b0db990509d273482e7b9edd3
     border: 5px solid rgb(249, 249, 249);
     height: 65%;
     width: 80%;
@@ -285,23 +258,14 @@
     margin-left: -155%;
     margin-top: 110px;
     font-size: 120%;
-<<<<<<< HEAD
 } */
 /* .Vermelho {
-=======
-}
-.Vermelho {
->>>>>>> c6315085b4d4959b0db990509d273482e7b9edd3
     border:  5px solid  rgb(223, 38, 22);
     width: 19.8%;
     height: 100%;
 } */
 
-<<<<<<< HEAD
 /* .Rosa {
-=======
-.Rosa {
->>>>>>> c6315085b4d4959b0db990509d273482e7b9edd3
     border:  5px solid  rgb(171, 30, 199);
     width: 20%;
     height: 40%;
@@ -355,8 +319,8 @@
 
 .l7{
     margin-top: -12px;
-     */
-}
+}*/
+
 
 
 
