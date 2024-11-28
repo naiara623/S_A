@@ -14,7 +14,7 @@ function Boas_Vindas() {
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </nav>
       
-     <h1>SEJA BEM VINDO <br /> AO ESPECTRUM!</h1>
+     <h1 className='bem-vindo'>SEJA BEM VINDO <br /> AO ESPECTRUM!</h1>
 
      <hr />
 
