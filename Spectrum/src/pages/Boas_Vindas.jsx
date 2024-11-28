@@ -14,16 +14,13 @@ function Boas_Vindas() {
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </nav>
       
-<<<<<<< HEAD
      <h1 className='sejabemvindo'>SEJA BEM VINDO <br /> AO SPECTRUM!</h1>
     
-=======
 
      <h1 className='sejabemvindo'>SEJA BEM VINDO <br /> AO SPECTRUM!</h1>
 
      <h1 className='bem-vindo'>SEJA BEM VINDO <br /> AO ESPECTRUM!</h1>
 
->>>>>>> 2c0f64d5ff9b54f992f9bcd673fa23e3b6e1d1ec
 
      <hr />
 
