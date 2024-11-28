@@ -40,7 +40,7 @@ function Calendario() {
 
         <Navbar/>
 
-    <div className="calendar">
+    <div className="calendar" ><img src="folinhas.jpg" alt="" className="folinhas"/>
       {/* Cabeçalho do calendário */}
       <div className="header">
         <button onClick={() => changeMonth(-1)}>◀</button>

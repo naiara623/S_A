@@ -10,6 +10,13 @@ function Cadastro() {
   const [password, setPassword] = useState('');
   const [users, setUsers] = useState([]);
   const [editIndex, setEditIndex] = useState(null);
+  const [mensagem, setMensagem] = useState()
+  const [mensagem1, setMensagem1] = useState()
+  const [mensagem2, setMensagem2] = useState()
+  const [mensagem21, setMensagem21] = useState()
+  const [mensagem22, setMensagem22] = useState()
+  const [mensagem23, setMensagem23] = useState()
+  const [mensagem24, setMensagem24] = useState()
 
   const navigate = useNavigate(); // Usado para navegar entre páginas
 
@@ -28,14 +35,15 @@ function Cadastro() {
   const addUser = () => {
     // Verifica se todos os campos foram preenchidos
     if (!name || !email || !password) {
-      alert('Preencha todos os campos');
+      setMensagem2('Preencha todos os campos');
       return;
     }
+
   
     // Verifica se o email já foi cadastrado
     const isDuplicate = users.some((user) => user.email === email);
     if (isDuplicate) {
-      alert('Usuário com este email já cadastrado');
+      setMensagem('Usuário com este email já cadastrado');
       return;
     }
   
@@ -90,7 +98,7 @@ function Cadastro() {
     
   // Verifica se todos os campos foram preenchidos
   if (!name || !email || !password) {
-    alert('Preencha todos os campos antes de continuar');
+    setMensagem1('Preencha todos os campos antes de continuar');
     return; // Impede a navegação
   }
 
