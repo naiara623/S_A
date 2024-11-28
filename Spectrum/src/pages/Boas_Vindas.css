@@ -5,18 +5,19 @@ body{
 }
 
 
-h1{
+.sejabemvindo{
 
     color: #EAF4F4;
     font-family: "Josefin Sans", sans-serif;
     font-size: 70px;
     width: fit-content;
     margin: 4% 4%;
+    
     /* gap: 5px 3px; (Espassamento entre os elementos na linhavertical e/ou horizontal) */ 
 }
 
 hr{
-    margin-top: -60px;
+    margin-top: -80px;
     margin-bottom: 45px;
     margin-left: 4%;
     width: 38%;
@@ -49,12 +50,12 @@ img{
 }
 
 
-p{
+.textboasvindas{
+    margin-right: -2%;
     font-size: 70px;
     font-family: "Roboto", sans-serif;
     color: #EAF4F4;
-
-
+    margin-top: -1%;
 }
 
 .navbar{
@@ -73,12 +74,12 @@ p{
     height:55px ;
     position: absolute;
     left: 1%;
-    top: 2%;
+    top: 3.5%;
     margin-left: 1%;
 }
 
 .img{
-    margin-top: -5%;
+    margin-top: -8%;
 }
 
 
