@@ -1,18 +1,18 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
-import './Estrategia2a4.css'
+import './Estrategia2.css'
 
 function Estrategia2() {
   return (
     <div>
     {<Navbar />}
     <div class="tela">
-<div class="barra-estrategias">
+<div class="barra">
     
- <div className='cor-estrategias'>
- <div className='coluna-estrategia'>
- <h3 className='estrategias-para'>Estratégias para:</h3>
+ <div className='cor'>
+ <div className='coluna'>
+ <h3 className='estrategias'>Estratégias para:</h3>
  
  <button className='estrategia1' ><h4 className="s1"><Link to={'/estrategia1'}>Sons Altos</Link></h4></button>
  <button className='estrategia1' ><h4 className="s2"><Link to={'/estrategia2'}>Mudança na Rotina</Link></h4></button>
@@ -21,13 +21,13 @@ function Estrategia2() {
  </div>
  </div>
 
-<div className="text">
-  <h2 className='text1'>Mudanças na Rotina</h2>
- <p className='text2'>Lidar com mudanças de rotina pode ser desafiador para pessoas autistas, mas existem diversas estratégias que podem ajudar:</p>
+<div className="cereja">
+  <h2 className='cereja1'>Mudanças na Rotina</h2>
+ <p className='caereja2'>Lidar com mudanças de rotina pode ser desafiador para pessoas autistas, mas existem diversas estratégias que podem ajudar:</p>
 </div>
  
  
- <div class="estra"> 
+ <div class="maca"> 
  <button className='Preparacao'><h4 className="p">Preparação antecipada</h4></button><br/>
  <button className='vizualizar'><h4 className="p2">Visualização e roteiros</h4></button><br/>
  <button className='manter'><h4 className="p3">Manter elementos constantes</h4></button><br/>

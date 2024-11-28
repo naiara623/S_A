@@ -109,7 +109,7 @@ function EsqueciASenha() {
       </div>
 
           <button className="b" type="submit">
-            Redefinir Senha
+            Confirmar
           </button>
         </form>
       </div>

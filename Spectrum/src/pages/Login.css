@@ -1,7 +1,5 @@
-
-
-.inputs{
-  margin-left: 5%;
+.gabi{
+margin-top: -15%;
 }
 
 .entrar{
@@ -9,6 +7,8 @@
         display: grid;
         grid-template-columns: auto auto ;
         border: 2px solid transparent;
+        margin-top: -2%;
+        margin-left: -5%;
 }
 
 
@@ -44,34 +44,6 @@
 .input-group:hover .label, .input:focus {
   color: #7a9183;
 }
-
-/* .search-bar {
-  width: 80%;
-  height: 35px;
-  border-radius: 5px;
-  outline: none;
-  border: 1px solid #EAF4F4;
-  border-bottom: 2px solid #9a9a9a;
-  padding-left: 5px;
-  padding-right: 5px;
-  background-color: #EAF4F4;
-  color: #0E3B43;
-  transition: all 0.3s ease;
-}
-.search-bar::placeholder {
-  color: #0E3B43;
-}
-
-.search-bar:hover {
-  background-color: #597B78;
-}
-
-.search-bar:active,
-.search-bar:focus {
-  background-color: #597B78;
-  border: 1px solid #597B78;
-  border-bottom: 2px solid #A3BBAD;
-} */
   
 .container4{
   background-color:#597b78c0;
@@ -110,15 +82,15 @@
   .tim{
   font-family: "Roboto", sans-serif;
   color: #EAF4F4;
-  padding-left: 25%;
-  margin-left: -5%;
+  padding-left: 5%;
+  padding-top: 1%;
   }
 
   .tim1{
     font-family: "Roboto", sans-serif;
     color: #EAF4F4;
     padding-left: 25%;
-    margin-left: -25mn;
+   margin-top: 3%;
   }
   
   h2{
@@ -183,3 +155,5 @@
      .button:active {
       filter: brightness(.8);
      }
+
+  

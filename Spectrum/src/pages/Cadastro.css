@@ -1,9 +1,19 @@
-
-
 h4{
     color: #eaf4f4;
     margin-top: 13%;
-}
+    margin-left: 5%;
+    width: 122%;
+  }
+
+  .Li{
+    margin-left: -30%;
+    margin-top: -12%;
+    color: #eaf4f4;
+    font-family: "Josefin Sans", sans-serif;
+    width: 190%;
+   
+    /* b */
+  }
 
 .bu{
   color: #fffdd0;
@@ -34,11 +44,11 @@ h4{
   }
   
   
-  h1{
+  .escrita{
   
       color: #EAF4F4;
       font-family: "Josefin Sans", sans-serif;
-      font-size: 55px;
+      font-size: 65px;
       width: fit-content;
       margin: 4% 4%;
       margin-left: -0.5%;
@@ -126,22 +136,21 @@ h4{
         width: 350px;
         display: grid;
         grid-template-columns: auto auto ;
-
+        margin-left: -25%;
     }
 
-    .radio11{
-        margin-left: -12%;
-    }
+  .radio11{
+      margin-left: -11%;
+    } 
 
     .radio1, .radio2, .radio11 {
       margin-bottom: 20px;
       display: flex;
       justify-content: center;
-      width: 150px;
-      
-      /* border: 2px solid; */
-      
+      width: 200px;
+      /* margin-left: -10%; */
     }
+
 
     .radio-button {
       display: flex;
@@ -411,7 +420,7 @@ h4{
         }
         
         .l11{
-          margin-left: -63%;
+          padding-right: 65%;
           display: block;
           margin-bottom: .3rem;
           font-size: .9rem;
@@ -426,7 +435,7 @@ h4{
         }
 
         .label1 {
-          padding-left: 5%;
+          padding-right: 80%;
           display: block;
           margin-bottom: .3rem;
           font-size: .9rem;
@@ -441,5 +450,5 @@ h4{
         }
         
         .input-group:hover .label, .a:focus {
-          color: #7a9183;
+          color: #EAF4F4;
         }

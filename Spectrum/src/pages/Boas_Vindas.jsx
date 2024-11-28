@@ -14,13 +14,13 @@ function Boas_Vindas() {
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </nav>
       
-     <h1>SEJA BEM VINDO <br /> AO ESPECTRUM!</h1>
+     <h1 className='bbpink'>SEJA BEM VINDO <br /> AO ESPECTRUM!</h1>
 
      <hr />
 
       <div className='img-section'>
 
-     <p>&nbsp;&nbsp;&nbsp;O nosso projeto se faz útil para pessoas que tenham ou <br /> conheçam
+     <p className='caneta'>&nbsp;&nbsp;&nbsp;O nosso projeto se faz útil para pessoas que tenham ou <br /> conheçam
             pessoas com TEA (Transtorno do Espectro Autista). <br /> 
             Buscamos fazer um lugar acolhedor com informações,
             dicas <br /> e profissionais qualificados. 

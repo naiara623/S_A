@@ -34,58 +34,47 @@ margin-top: 10%;
   } */
 
 
-  .l11{
-    margin-left: 5%;
-    display: block;
-    margin-bottom: .3rem;
-    font-size: .9rem;
-    font-weight: bold;
-    color: #EAF4F4;
-    transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+  .b {
+    margin-left: 13%;
+    height: 44px;
+    width: 72%;
+    background-color: #EAF4F4;
+    border-radius: .5rem;
+    padding: 0 1rem;
+    border: 2px solid transparent;
+    font-size: 1rem;
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
   }
-
-  .inputk{
-    margin-top: -3%;
-    margin-left: 5%;
-  }
-
-  .des{
-    margin-top: 6.5%;
-    margin-left: 9%;
-    width: 79.99%;
-    border-radius: 10px;
-    height: 5vh;
-    color: #EAF4F4;
-    /* border: 2px solid #e22f0f; */
-  }
-
-  .label1 {
-    padding-left: 85%;
-    display: block;
-    margin-bottom: .3rem;
-    font-size: .9rem;
-    font-weight: bold;
-    color: #EAF4F4;
-    transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
-  }
-
-  .label-des{
-    margin-left: 0%;
-    margin-top: 19%;
-    font-size: .9rem;
-    color: rgb(5, 3, 3);
-    border: 2px solid #a15c2e;
-    
-  } 
   
-  .a:hover, .a:focus, .inputk:hover .a {
+  .inputk{
+    margin-top: -5%;
+    margin-left: -5%;
+  }
+  
+  .label1 {
+    padding-right: 80%;
+    width: 5%;
+    display: block;
+    margin-bottom: .3rem;
+    font-size: .9rem;
+    font-weight: bold;
+    color: #EAF4F4;
+    transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+    margin-left: 15%;
+    margin-top: -5%;
+    border: 2px solid red;
+    display: inline;
+  }
+  
+  .b:hover, .b:focus, .inputk:hover .a {
     outline: none;
     border-color: #a3bbad;
   }
   
-  .inputk:hover .des, .label, .a:focus {
-    color: #7a9183;
+  .inputk:hover .label, .b:focus {
+    color: #EAF4F4;
   }
+  
 
 .info{
     margin-top: 3%;
