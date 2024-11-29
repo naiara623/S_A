@@ -51,7 +51,7 @@ margin-top: 10%;
     margin-left: -5%;
   }
   
-  .label1 {
+  .label2 {
     padding-right: 80%;
     width: 5%;
     display: block;
@@ -62,7 +62,7 @@ margin-top: 10%;
     transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
     margin-left: 15%;
     margin-top: -5%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: inline;
   }
   

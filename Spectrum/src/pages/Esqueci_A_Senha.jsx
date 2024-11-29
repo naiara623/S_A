@@ -84,10 +84,16 @@ function EsqueciASenha() {
             value={newPassword}
             onChange={(e) => setNewPassword(e.target.value)}
           />
+        <span
+        onClick={toggleSenha}>
+        {mostrarSenha ?  <img className='har' src="../visible.png" alt="Mostrar senha" /> : <img className='har' src="../invisible.png" alt="Ocultar senha" />  } {/* Muda o ícone do olho */}
+        
+         </span>
+
           <br /><br />
-          <div>
+          <div className='subir'>
           <label htmlFor="senha">Senha:</label>
-          <div>
+          <div className='olho'>
 
           <input
             className="input"
@@ -99,12 +105,12 @@ function EsqueciASenha() {
             value={confirmPassword}
             onChange={(e) => setConfirmPassword(e.target.value)}
           />
-          <br /><br />
           <span
-        onClick={toggleSenha}
-      >
-        {mostrarSenha ?  <img className='hu' src="../visible.png" alt="Mostrar senha" /> : <img className='hu' src="../invisible.png" alt="Ocultar senha" />  } {/* Muda o ícone do olho */}
+        onClick={toggleSenha}>
+        {mostrarSenha ?  <img className='har' src="../visible.png" alt="Mostrar senha" /> : <img className='har' src="../invisible.png" alt="Ocultar senha" />  } {/* Muda o ícone do olho */}
+        
       </span>
+      
       </div>
       </div>
 

@@ -69,7 +69,6 @@
 
 .Amarelo {
     background-color: #1f5962d3;
-    /* border: 5px solid #d1ea2ed3 ; */
     width: 29%;
     height: 39%;
     display: flex;
@@ -78,6 +77,7 @@
     margin-left: 20%;
 
 }
+
 .info{
     margin-left: -57%;
     margin-top: 1%;
@@ -122,20 +122,130 @@
 .butt-edi{
     height: 6vh;
     width: 7vw;
-    /* border: 5px solid rgb(16, 32, 176); */
+    border: 5px solid rgb(16, 32, 176);
     margin-top: 155%;
     margin-left: -180%;
     border-radius: 10px;
 }
 
+.butt-edi{
+    --color: #EAF4F4;
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+    /* width: 15%; */
+   }
+ 
+   .butt-edi::before, .butt-edi::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+   }
+ 
+   .butt-edi::before {
+    top: -1em;
+    left: -1em;
+   }
+ 
+   .butt-edi::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+   }
+ 
+   .butt-edi:hover::before, .butt-edi:hover::after {
+    height: 410px;
+    width: 410px;
+   }
+ 
+   .butt-edi:hover {
+    color: rgb(10, 25, 30);
+   }
+ 
+   .butt-edi:active {
+    filter: brightness(.8);
+   }
+
 .butt-dele{
     height: 6vh;
-    width: 7vw;
-    /* border: 5px solid blueviolet; */
+    /* width: 10vw; */
+    border: 5px solid blueviolet;
     margin-top: 45%;
     margin-left: 12%;
     border-radius: 10px;
 }
+
+.butt-dele {
+    --color: #EAF4F4;
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+    /* width: 15%; */
+   }
+ 
+   .butt-dele::before, .butt-dele::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+   }
+ 
+   .butt-dele::before {
+    top: -1em;
+    left: -1em;
+   }
+ 
+   .butt-dele::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+   }
+ 
+   .butt-dele:hover::before, .butt-dele:hover::after {
+    height: 410px;
+    width: 410px;
+   }
+ 
+   .butt-dele:hover {
+    color: rgb(10, 25, 30);
+   }
+ 
+   .butt-dele:active {
+    filter: brightness(.8);
+   }
 
 .Laranja {
     background-color: #1f5962d3;
@@ -145,7 +255,6 @@
     justify-content: space-around;
     margin-top: -19.4%;
     margin-left: 51%;
-    /* border: 5px solid #b9871ad3 ; */
 }
 .detalhes {
     /* border: 5px solid rgb(249, 249, 249); */
@@ -198,5 +307,7 @@
     justify-content: space-around;
 }
 
-
+.label1{
+    
+}
 

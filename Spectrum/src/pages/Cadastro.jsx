@@ -4,14 +4,15 @@ import { useNavigate } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 
 function Cadastro() {
-  // Estados para controlar o formulário e os dados dos usuários
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [userType, setUserType] = useState('');
+  const [acceptedTerms, setAcceptedTerms] = useState(false);
   const [users, setUsers] = useState([]);
-  const [editIndex, setEditIndex] = useState(null);
+  const [errorMessage, setErrorMessage] = useState('');
 
-  const navigate = useNavigate(); // Usado para navegar entre páginas
+  const navigate = useNavigate();
 
   // Função para salvar os dados no localStorage
   const saveToLocalStorage = (users) => {
@@ -19,51 +20,35 @@ function Cadastro() {
   };
 
   useEffect(() => {
-    const storedUsers = localStorage.setItem('users', JSON.stringify([]));
+    const storedUsers = localStorage.getItem('users');
     const usersData = storedUsers ? JSON.parse(storedUsers) : [];
     setUsers(usersData);
   }, []);
 
   // Função para adicionar um novo usuário
   const addUser = () => {
-    if (!name || !email || !password) {
-      alert('Preencha todos os campos');
+    if (!name || !email || !password || !userType || !acceptedTerms) {
+      setErrorMessage('Preencha todos os campos e aceite os Termos de Uso.');
       return;
     }
-    const newUser = { name, email, password };
+
+    if (password.length < 5) {
+      setErrorMessage('A senha deve ter pelo menos 5 caracteres.');
+      return;
+    }
+
+    const isDuplicate = users.some((user) => user.email === email);
+    if (isDuplicate) {
+      setErrorMessage('Usuário com este email já cadastrado.');
+      return;
+    }
+
+    const newUser = { name, email, password, userType };
     const updatedUsers = [...users, newUser];
     setUsers(updatedUsers);
     saveToLocalStorage(updatedUsers);
     clearForm();
-  };
-
-  // Função para editar um usuário
-  const editUser = (index) => {
-    const userToEdit = users[index];
-    setName(userToEdit.name);
-    setEmail(userToEdit.email);
-    setPassword(userToEdit.password);
-    setEditIndex(index);
-  };
-
-  // Função para atualizar um usuário
-  const updateUser = () => {
-    if (!name || !email || !password) {
-      alert('Preencha todos os campos');
-      return;
-    }
-    const updatedUsers = [...users];
-    updatedUsers[editIndex] = { name, email, password };
-    setUsers(updatedUsers);
-    saveToLocalStorage(updatedUsers);
-    clearForm();
-  };
-
-  // Função para remover um usuário
-  const deleteUser = (index) => {
-    const updatedUsers = users.filter((_, i) => i !== index);
-    setUsers(updatedUsers);
-    saveToLocalStorage(updatedUsers);
+    navigate('/telaprincipal');
   };
 
   // Função para limpar o formulário
@@ -71,128 +56,160 @@ function Cadastro() {
     setName('');
     setEmail('');
     setPassword('');
-    setEditIndex(null);
+    setUserType('');
+    setAcceptedTerms(false);
+    setErrorMessage('');
   };
 
   // Função de submit do formulário
   const handleSubmit = (e) => {
     e.preventDefault();
-    addUser(); // Chama a função para adicionar o usuário
-    navigate('/telaprincipal'); // Redireciona para a lista de usuários
+    addUser();
   };
 
   return (
-    <div className='body'>
+    <div className="body">
+      <div className="Conteiner-1"></div>
 
-      <div className='Container'>
-
+      <div className="Container">
         <center>
+          <div>
+            <div className="texto">
+              <h1 className="escrita">Cadastro</h1>
+              <br /><br />
+              {errorMessage && <p className="error">{errorMessage}</p>}
+              <form onSubmit={handleSubmit}>
+                <div className="input-group">
+                  <label className="l11">Nome de usuário</label>
+                  <input
+                    autoComplete="off"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                    className="a"
+                    type="text"
+                    placeholder="Nome Completo"
+                  />
+                </div>
+                <br /><br />
 
-         <div> 
+                <div className="input-group">
+                  <label className="label1">Email</label>
+                  <input
+                    autoComplete="off"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    className="a"
+                    type="email"
+                    placeholder="seu.email@gmail.com"
+                  />
+                </div>
+                <br /><br />
 
-          <div className="texto">
-             <h1 className='escrita'>Cadastro</h1>
-           
-           <br /><br />
+                <div className="input-group">
+                  <label className="label1">Senha</label>
+                  <input
+                    autoComplete="off"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    className="a"
+                    type="password"
+                    placeholder="Mínimo 5 caracteres"
+                  />
+                </div>
+                <br />
 
-          <br /><br />
+                <div className="radios">
+                  <div className="radio11">
+                    <label className="radio-button">
+                      <input
+                        type="radio"
+                        name="radio-group"
+                        value="Sou TEA"
+                        onChange={(e) => setUserType(e.target.value)}
+                      />
+                      <span className="radio-checkmark"></span>
+                      <span className="radio-label">Sou TEA</span>
+                    </label>
+                  </div>
 
-          <form onSubmit={handleSubmit}>
-            <div className="input-group">
-              <label className="l11">Nome de usuário</label>
-              <input 
-                autoComplete="off" 
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                className="a" 
-                type="text" 
-                placeholder='Nome Completo' 
-              />
-            </div>
-            <br /><br />
+                  <div className="radio1">
+                    <label className="radio-button">
+                      <input
+                        type="radio"
+                        name="radio-group"
+                        value="Sou responsável"
+                        onChange={(e) => setUserType(e.target.value)}
+                      />
+                      <span className="radio-checkmark"></span>
+                      <span className="radio-label">Sou responsável</span>
+                    </label>
+                  </div>
 
-            <div className="input-group">
-              <label className="label1">Email</label>
-              <input 
-                autoComplete="off" 
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className="a" 
-                type="email" 
-                placeholder='seu.email@gmail.com' 
-              />
-            </div>
-            <br /><br />
+                  <div className="radio2">
+                    <label className="radio-button">
+                      <input
+                        type="radio"
+                        name="radio-group"
+                        value="Tenho interesse"
+                        onChange={(e) => setUserType(e.target.value)}
+                      />
+                      <span className="radio-checkmark"></span>
+                      <span className="radio-label">Tenho interesse</span>
+                    </label>
+                  </div>
 
-            <div className="input-group">
-              <label className="label1">Senha</label>
-              <input 
-                autoComplete="off" 
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                className="a" 
-                type="password" 
-                placeholder='Minimo 5 Caracteres' 
-              />
-            </div>
-            <br />
+                  <div className="radio2">
+                    <label className="radio-button">
+                      <input
+                        type="radio"
+                        name="radio-group"
+                        value="Sou profissional"
+                        onChange={(e) => setUserType(e.target.value)}
+                      />
+                      <span className="radio-checkmark"></span>
+                      <span className="radio-label">Sou profissional</span>
+                    </label>
+                  </div>
+                </div>
 
-            <div className='radios'>
-              <div className='radio11'>
-                <label className='radio-button'>
-                  <input type="radio" id='radioum' name='radio-group' />
-                  <span className='radio-checkmark'></span>
-                  <span className='radio-label'>Sou TEA</span>
-                </label>
-              </div>
-
-              <div className='radio1'>
-                <label className='radio-button'>
-                  <input type="radio" id='radioDois' name='radio-group' />
-                  <span className='radio-checkmark'></span>
-                  <span className='radio-label'>Sou responsável</span>
-                </label>
-              </div>
-
-              <div className='radio2'>
-                <label className='radio-button'>
-                  <input type="radio" id='radioQuatro' name='radio-group' />
-                  <span className='radio-checkmark'></span>
-                  <span className='radio-label'>Tenho interesse</span>
-                </label>
-              </div>
-
-              <div className='radio2'>
-                <label className='radio-button'>
-                  <input type="radio" id='radioCinco' name='radio-group' />
-                  <span className='radio-checkmark'></span>
-                  <span className='radio-label'>Sou profissional</span>
-                </label>
-              </div>
-            </div>
-
-            <button className='oi' type="submit">Cadastrar</button>
-            <br /><br />
-          </form>
-
-          <div className="Logar">
-            <div className="termos">
-              <input type="checkbox" id="cbx2" style={{ display: "none" }} />
-              <label htmlFor="cbx2" className="check">
+                <button
+                  className="oi"
+                  type="submit"
+                  disabled={!name || !email || !password || !userType || !acceptedTerms}
+                >
+                  Cadastrar
+                </button>
+                <br /><br />
+                
+                <div className="termos">
+                  <input
+                    type="checkbox"
+                    id="cbx2"
+                    checked={acceptedTerms}
+                    onChange={(e) => setAcceptedTerms(e.target.checked)}
+                    style={{display: 'none'}}
+                  />
+                  <label htmlFor="cbx2" className="check">
                 <svg width="18px" height="18px" viewBox="0 0 18 18">
                   <path d="M 1 9 L 1 9 c 0 -5 3 -8 8 -8 L 9 1 C 14 1 17 5 17 9 L 17 9 c 0 4 -4 8 -8 8 L 9 17 C 5 17 1 14 1 9 L 1 9 Z" />
                   <polyline points="1 9 7 14 15 4" />
-                </svg> &nbsp; Li e aceito os Termos de uso
+                </svg>  Li e aceito os Termos de uso
               </label>
-            </div>
-            
-           <Link to="/login" className='Li'><h4>Já tem conta? Entrar</h4></Link>
+                </div>
 
+                
+              </form>
+
+              <div className="Logar">
+                   <Link to="/login" className='login'>
+                <h4>
+                  Já tem conta? Entrar
+                </h4>
+                   </Link>
+              </div>
+            </div>
           </div>
-         </div>
-         </div>
-        </center> 
-        
+        </center>
       </div>
     </div>
   );
