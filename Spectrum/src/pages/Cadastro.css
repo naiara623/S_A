@@ -104,7 +104,7 @@ label{
 
  
  .label1 {
-  margin-left: -75%;
+  margin-left: -160%;
   display: block;
   margin-bottom: .3rem;
   font-weight: bold;
@@ -131,13 +131,13 @@ label{
       width: 350px;
       display: grid;
       grid-template-columns: auto auto ;
-      margin-left: -20%;
+      margin-left: -30%;
       margin-top: 3%;
 
   }
 
   .radio11{
-      margin-left: -13%;
+      margin-left: -11%;
   }
 
   .radio1, .radio2, .radio11 {

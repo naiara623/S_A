@@ -114,7 +114,7 @@ function EsqueciASenha() {
       </div>
       </div>
 
-          <button className="b" type="submit">
+          <button className="demetra" type="submit">
             Confirmar
           </button>
         </form>

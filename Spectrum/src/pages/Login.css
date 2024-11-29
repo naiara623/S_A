@@ -101,7 +101,7 @@ margin-top: -15%;
       color: #EAF4F4;
   }
   
-  .button {
+  .button1 {
     --color: #EAF4F4;
     padding: 0.8em 1.7em;
     background-color: #EAF4F4;
@@ -122,7 +122,7 @@ margin-top: -15%;
     margin-left: 35%;
      }
      
-     .button::before, .button::after {
+     .button1::before, .button1::after {
       content: '';
         display: block;
         width: 20%;
@@ -135,26 +135,26 @@ margin-top: -15%;
         transition: 1s ease;
      }
      
-     .button::before {
+     .button1::before {
       top: -1em;
       left: -1em;
      }
      
-     .button::after {
+     .button1::after {
       left: calc(100% + 1em);
       top: calc(100% + 1em);
      }
      
-     .button:hover::before, .button:hover::after {
+     .button1:hover::before, .button1:hover::after {
       height: 410px;
         width: 410px;
      }
      
-     .button:hover {
+     .button1:hover {
       color: #214b51;
      }
      
-     .button:active {
+     .button1:active {
       filter: brightness(.8);
      }
 

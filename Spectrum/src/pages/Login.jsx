@@ -72,7 +72,7 @@ const handleLogin = (e) => {
                 />
               </div>
               <br /><br />
-              <button className='button' type="submit">Entrar</button>
+              <button className='button1' type="submit">Entrar</button>
             </form>
             <br /><br />
             <div className="entrar">
