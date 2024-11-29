@@ -25,7 +25,7 @@
   background-color: #EAFAF4; /* Fundo com o tom Azure Web */
   border: 1px solid #214B51; /* Borda com o tom Midnight Green */
   border-top: none;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(11, 210, 120, 0.1);
   max-height: 200px;
   overflow-y: auto;
   z-index: 100;

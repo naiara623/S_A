@@ -15,6 +15,10 @@ function Estrategia1() {
             <h3 className='estrategias-para'>Estratégias para:</h3>
 
             <div className='todas-colunas'>
+              <Link className='corS'><button className='estrategia1'  >Sons Altos</button></Link><br /><br />
+              <Link className='corM' to={'/estrategia2'}><button className='estrategia2' >Mudança na Rotina</button></Link><br /><br />
+              <Link className='corR' to={'/estrategia3'}><button className='estrategia3' >Rotas diferentes do previsto</button></Link><br /><br />
+              <Link className='corP' to={'/estrategia4'}><button className='estrategia4' >Muitas pessoas em um ambiente</button></Link><br /><br />
             <Link><button className='estrategia1' >Sons Altos</button></Link><br /><br />
               <Link to={'/estrategia2'}><button className='estrategia2' >Mudança na Rotina</button></Link><br /><br />
              <Link to={'/estrategia3'}><button className='estrategia3' >Rotas diferentes do previsto</button></Link><br /><br />
@@ -24,7 +28,7 @@ function Estrategia1() {
               </div>
             </div>
           </div>
-          <div className='scrollable-colunas'></div>
+          
           <div className='text-estrategias1'>
 
             <h2 className='text1'>Sons Altos</h2>

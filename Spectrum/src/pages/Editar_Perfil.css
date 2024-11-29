@@ -45,6 +45,43 @@ margin-top: 10%;
     font-size: 1rem;
     transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
   }
+<<<<<<< HEAD
+=======
+
+  .inputk{
+    margin-top: -3%;
+    margin-left: 5%;
+  }
+
+  .des{
+    margin-top: 6.5%;
+    margin-left: 9%;
+    width: 79.99%;
+    border-radius: 10px;
+    height: 5vh;
+    color: #EAF4F4;
+    /* border: 2px solid #e22f0f; */
+  }
+
+  .label1 {
+    padding-left: 85%;
+    display: block;
+    margin-bottom: .3rem;
+    font-size: .9rem;
+    font-weight: bold;
+    color: #EAF4F4;
+    transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+  }
+
+  .label-des{
+    margin-left: 0%;
+    margin-top: 19%;
+    font-size: .9rem;
+    color: rgb(5, 3, 3);
+   
+    
+  } 
+>>>>>>> 319a69e0b95e38eb3df8ff3faaca7d9e5c19bde4
   
   .inputk{
     margin-top: -5%;
