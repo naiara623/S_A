@@ -5,7 +5,7 @@ body{
 }
 
 
-.sejabemvindo{
+.bem-vindo{
 
     color: #EAF4F4;
     font-family: "Josefin Sans", sans-serif;
@@ -50,15 +50,7 @@ img{
 }
 
 
-.textboasvindas{
-    margin-right: -2%;
-    font-size: 70px;
-    font-family: "Roboto", sans-serif;
-    color: #EAF4F4;
-    margin-top: -1%;
-    
 
-}
 
 .navbar{
     display: flex;
@@ -143,3 +135,8 @@ img{
    .bem-vindo{
     margin-left: 4%;
    }
+
+.tea{
+    font-size: 5%;
+    
+}

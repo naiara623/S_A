@@ -13,11 +13,6 @@ function Boas_Vindas() {
             <Link to={"/cadastro"} className='Button'>Cadastrar</Link>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </nav>
-      
-     <h1 className='sejabemvindo'>SEJA BEM VINDO <br /> AO SPECTRUM!</h1>
-    
-
-     <h1 className='sejabemvindo'>SEJA BEM VINDO <br /> AO SPECTRUM!</h1>
 
      <h1 className='bem-vindo'>SEJA BEM VINDO <br /> AO ESPECTRUM!</h1>
 
@@ -26,7 +21,7 @@ function Boas_Vindas() {
 
       <div className='img-section'>
 
-     <p className='textboasvindas'>&nbsp;&nbsp;&nbsp;O nosso projeto se faz útil para pessoas que tenham ou <br /> conheçam
+     <p className='tea'>&nbsp;&nbsp;&nbsp;O nosso projeto se faz útil para pessoas que tenham ou <br /> conheçam
             pessoas com TEA (Transtorno do Espectro Autista). <br /> 
             Cria um espaço seguro e informativo para pessoas com TEA <br />
             e seus familiares. O conteúdo é baseado em pesquisas<br /> científicas  

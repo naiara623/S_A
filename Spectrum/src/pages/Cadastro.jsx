@@ -80,7 +80,7 @@ function Cadastro() {
               {errorMessage && <p className="error">{errorMessage}</p>}
               <form onSubmit={handleSubmit}>
                 <div className="input-group">
-                  <label className="l11">Nome de usuário</label>
+                  <label className="label2">Nome de usuário</label>
                   <input
                     autoComplete="off"
                     value={name}
@@ -172,7 +172,21 @@ function Cadastro() {
                   </div>
                 </div>
 
-                <div className="termos">
+                
+
+                <button
+                  className="oi"
+                  type="submit"
+                  disabled={!name || !email || !password || !userType || !acceptedTerms}
+                >
+                  Cadastrar
+                </button>
+                <br /><br />
+              </form>
+
+             
+
+              <div className="termos">
                   <input
                     type="checkbox"
                     id="cbx2"
@@ -188,20 +202,12 @@ function Cadastro() {
               </label>
                 </div>
 
-                <button
-                  className="oi"
-                  type="submit"
-                  disabled={!name || !email || !password || !userType || !acceptedTerms}
-                >
-                  Cadastrar
-                </button>
-                <br /><br />
-              </form>
-
-              <div className="Logar">
+                <div className="Logar">
+                <Link to="/login" className='Link'>
                 <h4>
-                  Já tem conta? <Link to="/login">Entrar</Link>
+                  Já tem conta? Entrar
                 </h4>
+                </Link>
               </div>
             </div>
           </div>

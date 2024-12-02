@@ -13,6 +13,8 @@ h4{
     width: 350px;
     display: grid;
     grid-template-columns: auto auto ;
+    margin-top: -10%;
+    margin-left: 55%;
 }
 
 
@@ -60,6 +62,8 @@ h4{
       color: #E5E5E5;
       font-family: "Josefin Sans", sans-serif;
       margin-top: -3%;
+      font-size: 295%;
+      margin-left: 5%;
   }
 
   .dados{
@@ -99,7 +103,7 @@ h4{
 
    
   .label1 {
-    margin-left: -80%;
+    margin-left: -160%;
     display: block;
     margin-bottom: .3rem;
     font-weight: bold;
@@ -137,7 +141,8 @@ h4{
       margin-bottom: 20px;
       display: flex;
       justify-content: center;
-      width: 150px;
+      width: 210px;
+      margin-left: -25%;
       
       /* border: 2px solid; */
       
@@ -410,8 +415,8 @@ h4{
           transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
         }
         
-        .l11{
-          margin-left: -63%;
+        .label2{
+          margin-left: -62%;
           display: block;
           margin-bottom: .3rem;
           font-size: .9rem;
