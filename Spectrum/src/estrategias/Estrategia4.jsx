@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 
+import './Estrategia4.css'
 
 function Estrategia4() {
   return (

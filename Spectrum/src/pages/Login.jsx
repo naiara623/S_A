@@ -39,43 +39,47 @@ const handleLogin = (e) => {
   return (
 <div className='body-login'>
   <div className='container-1'>
+    
     <div className='container4'>
       <h2 className='kk'>Login</h2>
       <br /><br /><br />
+      <div className='gabi'>
       <form onSubmit={handleLogin}>
-      <div className="input-group">
-              <label className="label">Nome de usuário ou Email</label>
-              <input
-                autoComplete="off"
-                name="email"
-                className="input"
-                type="email"
-                placeholder='seu.email@gmail.com ou Nome Completo'
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-              />
-            </div>
-            <br /><br /><br />
-            <div className="input-group">
-              <label className="label">Senha</label>
-              <input
-                autoComplete="off"
-                name="password"
-                className="input"
-                type="password"
-                placeholder='Mínimo 5 caracteres'
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-              />
-            </div>
+        
+        <div className="input-group">
+                <label className="label">Nome de usuário ou Email</label>
+                <input
+                  autoComplete="off"
+                  name="email"
+                  className="input"
+                  type="email"
+                  placeholder='seu.email@gmail.com ou Nome Completo'
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                />
+              </div>
+              <br /><br /><br />
+              <div className="input-group">
+                <label className="label">Senha</label>
+                <input
+                  autoComplete="off"
+                  name="password"
+                  className="input"
+                  type="password"
+                  placeholder='Mínimo 5 caracteres'
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                />
+              </div>
+              <br /><br />
+              <button className='button1' type="submit">Entrar</button>
+            </form>
             <br /><br />
-            <button className='button' type="submit">Entrar</button>
-          </form>
-          <br /><br />
-          <div className="entrar">
-            <h4 className='tim'>Não tem conta? <Link to={"/cadastro"} className='Link'>Cadastrar</Link></h4>
-            <h4 className='tim1'>Esqueceu a senha?</h4>
-          </div>
+            <div className="entrar">
+              <Link to={"/cadastro"} className='tim'><h4>Não tem conta? Cadastrar</h4></Link>
+              <Link className='tim1'><h4>Esqueceu a senha? Resetar</h4></Link>
+            </div>
+      </div>
         </div>
       </div>
     </div>

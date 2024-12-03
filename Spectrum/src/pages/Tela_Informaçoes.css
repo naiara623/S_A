@@ -1,14 +1,22 @@
-body {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
+.body-informaçoes{
   background-color: #214B51;
+  margin-top: -1%;
+  margin-left: -0.4%;
+  width: 99.99vw;
+}
+
+.TEA{
+  border: 2px solid red;
+}
+
+.Tra{
+  border: 2px solid red;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100%;
 }
 
 .content {

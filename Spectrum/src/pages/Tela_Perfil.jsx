@@ -19,7 +19,7 @@ function Perfil() {
                 </div>
           </div>
 
-      <div className='Rosa'></div>
+      {/* <div className='Rosa'></div>
 
           <div className='Amarelo'>
             <div className='info'>
@@ -39,13 +39,13 @@ function Perfil() {
         <div className='Laranja'>
               <p className='detalhes'>DETALHES RELEVANTES SOBRE O USÚARIO:</p>
               <div className='marrom'>
-                <label>Qual o nivelamento do seu TEA?</label><br />
-                <label>Quando foi descorberto?</label><br />
-                <label>Quais as suas maiores necessidades? </label><br />
-                <label>Quais profissionais já o acompanham? </label><br />
-                <label>Quais são seus interesses? </label><br />
-                <label>Quais dificuldades já superou? </label><br />
-                <label>Tem alguma comorbidade? </label> 
+                <label className='l1'>Qual o nivelamento do seu TEA?</label><br />
+                <label className='l2' >Quando foi descorberto?</label><br />
+                <label className='l3' >Quais as suas maiores necessidades? </label><br />
+                <label className='l4'>Quais profissionais já o acompanham? </label><br />
+                <label className='l5' >Quais são seus interesses? </label><br />
+                <label className='l6' >Quais dificuldades já superou? </label><br />
+                <label className='l7' >Tem alguma comorbidade? </label> 
                 </div>
         </div>
 
@@ -54,7 +54,7 @@ function Perfil() {
       <div className='Branco'></div>
      
      
-
+ */}
 
 
         
