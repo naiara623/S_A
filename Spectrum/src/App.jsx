@@ -9,14 +9,9 @@ import Login from './pages/Login';
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Route path="/" exact component={Boas_Vindas} />
-        <Route path="/about" component={Cadastro} />
-        <Route path="/contact" component={Login} />
-      </Switch>
-    </Router>
-  );
+ <>
+ </>
+  )
 }
 
 export default App;
