@@ -7,28 +7,6 @@ function Tela_Profissional() {
     <div className='Body-profi'>
       <Navbar/>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-         
     </div>
 
   )

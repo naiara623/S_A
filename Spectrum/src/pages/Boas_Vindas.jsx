@@ -8,10 +8,9 @@ function Boas_Vindas() {
 
         <img className='imglogo-boasvindas' src="logo spectrum.png" alt="Logo do site" />
 
-            <Link to={"/login"} className='button-boasvindas'>Entrar</Link>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <Link to={"/cadastro"} className='button-boasvindas'>Cadastrar</Link>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button className='button-boasvindas'>Entrar</button>
+            <button className='button-boasvindas'>Cadastrar</button>
+          
       </nav>
 
       
