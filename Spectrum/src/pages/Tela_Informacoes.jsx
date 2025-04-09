@@ -2,7 +2,6 @@ import React from 'react'
 import './Tela_Informaçoes.css'
 import Navbar from '../components/Navbar'
 
-
 function Tela_Informacoes() {
   return (
     <div className='body-informaçoes'>
